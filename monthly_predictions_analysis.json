@@ -1,0 +1,30 @@
+{
+  "analysis_time": "2025-08-24T15:56:31.052926",
+  "data_source": "/Users/parkyoungjun/Desktop/BTC_Analysis_System/monthly_predictions.json",
+  "basic_info": {
+    "current_price": 112899.078125,
+    "prediction_days": 30,
+    "generation_time": "2025-08-24T15:54:20.325323"
+  },
+  "confidence_analysis": {
+    "avg_confidence": 31.249870623203957,
+    "min_confidence": 17.400000000000002,
+    "max_confidence": 65.14285714285715,
+    "confidence_std": 13.107724302434644
+  },
+  "price_analysis": {
+    "avg_price": 117936.61140167362,
+    "price_range": {
+      "min": 111428.27612204685,
+      "max": 127264.90093910338
+    },
+    "price_volatility": 4780.499792642248,
+    "final_prediction": 116561.44363116099,
+    "total_change_pct": 3.2439286192453043
+  },
+  "risk_metrics": {
+    "high_volatility_days": 9,
+    "avg_daily_volatility": 4.783795764214253,
+    "confidence_interval_avg_width": 9683.988179736896
+  }
+}

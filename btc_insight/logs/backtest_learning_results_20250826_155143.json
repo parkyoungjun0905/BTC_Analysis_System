@@ -1,0 +1,3662 @@
+{
+  "learning_completed": "False",
+  "total_iterations": 500,
+  "successful_tests": 454,
+  "failed_tests": 46,
+  "success_rate": 90.8,
+  "final_accuracy": 46.16602771520856,
+  "target_accuracy": 90.0,
+  "learned_patterns": 3,
+  "learning_history": [
+    {
+      "timestamp": "2025-08-26T08:14:11.127803",
+      "accuracy": 64.91824442315328,
+      "error_percentage": 35.081755576846724,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:14:30.658172",
+      "accuracy": 55.90654741535938,
+      "error_percentage": 44.09345258464062,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T08:16:38.538070",
+      "accuracy": 90.97716192330994,
+      "error_percentage": 9.022838076690068,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:16:44.521619",
+      "accuracy": 0,
+      "error_percentage": 112.48188992611443,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T08:17:30.920903",
+      "accuracy": 81.24686618932924,
+      "error_percentage": 18.753133810670757,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T08:17:58.094827",
+      "accuracy": 0,
+      "error_percentage": 103.58064010203792,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T08:18:14.708190",
+      "accuracy": 59.40201654101654,
+      "error_percentage": 40.59798345898346,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T08:19:24.962867",
+      "accuracy": 0,
+      "error_percentage": 155.27599766472804,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T08:20:58.235742",
+      "accuracy": 69.09041609729992,
+      "error_percentage": 30.909583902700078,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T08:22:26.842383",
+      "accuracy": 72.9149906627401,
+      "error_percentage": 27.0850093372599,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T08:23:39.360346",
+      "accuracy": 47.3416192115516,
+      "error_percentage": 52.6583807884484,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T08:24:22.559498",
+      "accuracy": 86.06766869606739,
+      "error_percentage": 13.93233130393261,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T08:25:03.252851",
+      "accuracy": 97.20030580452556,
+      "error_percentage": 2.7996941954744425,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T08:26:33.146668",
+      "accuracy": 88.70797459946317,
+      "error_percentage": 11.292025400536836,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T08:26:53.278213",
+      "accuracy": 28.523430021870794,
+      "error_percentage": 71.4765699781292,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T08:27:15.770776",
+      "accuracy": 76.25429447863577,
+      "error_percentage": 23.745705521364233,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:29:06.938239",
+      "accuracy": 45.341874463773415,
+      "error_percentage": 54.658125536226585,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:30:51.830703",
+      "accuracy": 49.533616014173596,
+      "error_percentage": 50.466383985826404,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T08:31:12.937636",
+      "accuracy": 92.65794788071611,
+      "error_percentage": 7.342052119283891,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:33:03.435953",
+      "accuracy": 0,
+      "error_percentage": 220.74687584554133,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T08:33:15.834444",
+      "accuracy": 75.06375436870005,
+      "error_percentage": 24.936245631299947,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:35:14.240699",
+      "accuracy": 97.56192398677959,
+      "error_percentage": 2.4380760132204147,
+      "market_regime": "high_volatility",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:36:42.670928",
+      "accuracy": 62.2245470294469,
+      "error_percentage": 37.7754529705531,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:38:22.207984",
+      "accuracy": 95.85031151573907,
+      "error_percentage": 4.149688484260936,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T08:39:19.105094",
+      "accuracy": 58.5932688498759,
+      "error_percentage": 41.4067311501241,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T08:40:22.654760",
+      "accuracy": 72.31654421912916,
+      "error_percentage": 27.68345578087085,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T08:41:48.134781",
+      "accuracy": 50.144956265028085,
+      "error_percentage": 49.855043734971915,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T08:42:17.378485",
+      "accuracy": 64.30149975383517,
+      "error_percentage": 35.69850024616483,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:44:06.973811",
+      "accuracy": 37.58949093424867,
+      "error_percentage": 62.41050906575133,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T08:45:16.532702",
+      "accuracy": 86.35390100957041,
+      "error_percentage": 13.646098990429595,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T08:46:52.819258",
+      "accuracy": 0,
+      "error_percentage": 603.9683881216057,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:47:09.696883",
+      "accuracy": 0,
+      "error_percentage": 408.74189563905566,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:48:10.102954",
+      "accuracy": 0,
+      "error_percentage": 37077.83186147791,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T08:49:15.158265",
+      "accuracy": 44.057030849682235,
+      "error_percentage": 55.942969150317765,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T08:49:47.509495",
+      "accuracy": 50.477524179522035,
+      "error_percentage": 49.522475820477965,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T08:50:33.806215",
+      "accuracy": 0,
+      "error_percentage": 112.238457628209,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T08:50:40.882660",
+      "accuracy": 85.93340934496611,
+      "error_percentage": 14.066590655033895,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:52:21.395645",
+      "accuracy": 68.24244486555044,
+      "error_percentage": 31.75755513444956,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T08:53:39.528641",
+      "accuracy": 75.10344909175639,
+      "error_percentage": 24.896550908243608,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:53:53.330819",
+      "accuracy": 35.80924300409039,
+      "error_percentage": 64.19075699590961,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T08:55:57.903070",
+      "accuracy": 90.05288946469035,
+      "error_percentage": 9.94711053530965,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:57:14.615570",
+      "accuracy": 0,
+      "error_percentage": 236.62701717577949,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:58:24.703995",
+      "accuracy": 39.37247557034914,
+      "error_percentage": 60.62752442965086,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:59:27.889116",
+      "accuracy": 88.00439261993313,
+      "error_percentage": 11.99560738006687,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:59:44.508559",
+      "accuracy": 82.6119833316931,
+      "error_percentage": 17.388016668306904,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T08:59:47.309783",
+      "accuracy": 59.1565734698141,
+      "error_percentage": 40.8434265301859,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T09:01:26.185873",
+      "accuracy": 0,
+      "error_percentage": 599.3552941648154,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:02:13.751559",
+      "accuracy": 66.15357072054968,
+      "error_percentage": 33.84642927945033,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:02:57.966131",
+      "accuracy": 0,
+      "error_percentage": 802.2087997540709,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:03:53.906647",
+      "accuracy": 80.83143659940086,
+      "error_percentage": 19.168563400599147,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T09:04:14.307999",
+      "accuracy": 83.7609420909505,
+      "error_percentage": 16.2390579090495,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T09:04:57.840465",
+      "accuracy": 0,
+      "error_percentage": 285.69954999538766,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T09:05:22.636967",
+      "accuracy": 0,
+      "error_percentage": 479.19912440537587,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T09:05:25.918600",
+      "accuracy": 0,
+      "error_percentage": 139.49830738591723,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T09:05:57.081298",
+      "accuracy": 73.80007907736366,
+      "error_percentage": 26.199920922636334,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:06:39.039358",
+      "accuracy": 59.01820570461072,
+      "error_percentage": 40.98179429538928,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:06:59.683289",
+      "accuracy": 43.79238742487879,
+      "error_percentage": 56.20761257512121,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:07:21.285038",
+      "accuracy": 71.26895698635914,
+      "error_percentage": 28.73104301364085,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T09:07:43.770155",
+      "accuracy": 86.07534913124206,
+      "error_percentage": 13.92465086875793,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T09:08:43.551193",
+      "accuracy": 73.47892242672,
+      "error_percentage": 26.52107757327999,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T09:08:52.319221",
+      "accuracy": 53.23790029125966,
+      "error_percentage": 46.76209970874034,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T09:08:54.734464",
+      "accuracy": 0,
+      "error_percentage": 337.80111955503224,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T09:09:04.625034",
+      "accuracy": 71.80631161357373,
+      "error_percentage": 28.193688386426274,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:10:10.755049",
+      "accuracy": 84.97048809161608,
+      "error_percentage": 15.029511908383919,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T09:11:16.848608",
+      "accuracy": 54.84227512219773,
+      "error_percentage": 45.15772487780227,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:11:31.028769",
+      "accuracy": 41.401067138104096,
+      "error_percentage": 58.598932861895904,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T09:11:48.382418",
+      "accuracy": 67.34940192257564,
+      "error_percentage": 32.65059807742436,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:12:53.398135",
+      "accuracy": 0,
+      "error_percentage": 162.599500693888,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:13:32.819440",
+      "accuracy": 23.194717282348662,
+      "error_percentage": 76.80528271765134,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:14:49.788368",
+      "accuracy": 94.51901038121885,
+      "error_percentage": 5.4809896187811455,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:16:31.857762",
+      "accuracy": 76.35114470052103,
+      "error_percentage": 23.648855299478967,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:17:30.903692",
+      "accuracy": 82.07849607669047,
+      "error_percentage": 17.921503923309537,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:18:00.331490",
+      "accuracy": 74.2862897769267,
+      "error_percentage": 25.71371022307331,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:19:22.357982",
+      "accuracy": 84.45860911579426,
+      "error_percentage": 15.541390884205738,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T09:21:21.051641",
+      "accuracy": 0,
+      "error_percentage": 200.90421138604927,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T09:22:42.322689",
+      "accuracy": 0,
+      "error_percentage": 459.17664375998174,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:24:32.018748",
+      "accuracy": 70.61132233470248,
+      "error_percentage": 29.388677665297525,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:25:33.865806",
+      "accuracy": 97.09503241868039,
+      "error_percentage": 2.9049675813196094,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:25:40.632675",
+      "accuracy": 31.31589195775358,
+      "error_percentage": 68.68410804224642,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:27:33.845848",
+      "accuracy": 6.673603985639232,
+      "error_percentage": 93.32639601436077,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:27:58.935040",
+      "accuracy": 46.18318250893052,
+      "error_percentage": 53.81681749106948,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T09:28:36.983741",
+      "accuracy": 54.00384618971001,
+      "error_percentage": 45.99615381028999,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T09:29:43.519075",
+      "accuracy": 66.28241261058581,
+      "error_percentage": 33.71758738941419,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:30:38.141461",
+      "accuracy": 98.14413592242394,
+      "error_percentage": 1.8558640775760569,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T09:30:52.989762",
+      "accuracy": 67.34527215630257,
+      "error_percentage": 32.65472784369742,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T09:31:24.859739",
+      "accuracy": 0,
+      "error_percentage": 2077.8021028055305,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:32:42.657485",
+      "accuracy": 0,
+      "error_percentage": 209.64565853673798,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T09:33:17.554245",
+      "accuracy": 53.44294122586391,
+      "error_percentage": 46.55705877413609,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T09:34:26.411738",
+      "accuracy": 86.6093098497549,
+      "error_percentage": 13.390690150245105,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T09:35:12.062192",
+      "accuracy": 61.53980232531463,
+      "error_percentage": 38.46019767468537,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:35:34.938434",
+      "accuracy": 57.53041566483634,
+      "error_percentage": 42.46958433516366,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:37:20.393105",
+      "accuracy": 66.3699435970744,
+      "error_percentage": 33.630056402925604,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T09:37:26.518282",
+      "accuracy": 45.488649474253705,
+      "error_percentage": 54.511350525746295,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T09:38:32.799922",
+      "accuracy": 56.79425597537006,
+      "error_percentage": 43.20574402462994,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:38:50.762584",
+      "accuracy": 70.17306016423304,
+      "error_percentage": 29.826939835766968,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T09:39:49.865066",
+      "accuracy": 56.47391768999317,
+      "error_percentage": 43.52608231000683,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:41:16.861205",
+      "accuracy": 54.010193004116616,
+      "error_percentage": 45.989806995883384,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T09:42:16.378255",
+      "accuracy": 77.18624472427908,
+      "error_percentage": 22.813755275720922,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:42:19.450539",
+      "accuracy": 0,
+      "error_percentage": 30669.49067010551,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:42:36.088262",
+      "accuracy": 0,
+      "error_percentage": 1239.054926895627,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:43:26.890095",
+      "accuracy": 5.150556625134342,
+      "error_percentage": 94.84944337486566,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:45:32.457117",
+      "accuracy": 87.01770183157687,
+      "error_percentage": 12.982298168423126,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T09:45:54.662478",
+      "accuracy": 77.80995263893794,
+      "error_percentage": 22.190047361062064,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T09:46:24.964027",
+      "accuracy": 78.59761319418773,
+      "error_percentage": 21.402386805812267,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:47:49.859498",
+      "accuracy": 69.12868353968994,
+      "error_percentage": 30.871316460310048,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T09:49:13.362684",
+      "accuracy": 66.69161009764323,
+      "error_percentage": 33.30838990235677,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:50:40.724806",
+      "accuracy": 56.07268026481531,
+      "error_percentage": 43.92731973518469,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T09:52:46.853250",
+      "accuracy": 61.733988133917975,
+      "error_percentage": 38.266011866082025,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:54:35.236204",
+      "accuracy": 91.45251323634761,
+      "error_percentage": 8.547486763652385,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:55:24.873743",
+      "accuracy": 63.51059573188484,
+      "error_percentage": 36.48940426811516,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T09:56:37.131057",
+      "accuracy": 75.76633988762549,
+      "error_percentage": 24.233660112374515,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T09:57:20.421154",
+      "accuracy": 83.23367748456567,
+      "error_percentage": 16.76632251543432,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T09:57:25.250580",
+      "accuracy": 0,
+      "error_percentage": 214.75348839465943,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T09:57:36.002078",
+      "accuracy": 59.038510568355264,
+      "error_percentage": 40.961489431644736,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T09:57:42.798360",
+      "accuracy": 68.19738551861815,
+      "error_percentage": 31.80261448138185,
+      "market_regime": "high_volatility",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T09:59:24.071715",
+      "accuracy": 56.394492353999645,
+      "error_percentage": 43.605507646000355,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:00:37.628588",
+      "accuracy": 52.365482168591555,
+      "error_percentage": 47.634517831408445,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:01:17.166080",
+      "accuracy": 42.75681451752064,
+      "error_percentage": 57.24318548247936,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.75
+    },
+    {
+      "timestamp": "2025-08-26T10:02:42.112199",
+      "accuracy": 76.69900540077138,
+      "error_percentage": 23.300994599228616,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:04:41.030721",
+      "accuracy": 0,
+      "error_percentage": 257.97579797111666,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T10:04:45.487708",
+      "accuracy": 59.45102999243195,
+      "error_percentage": 40.54897000756805,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T10:04:49.355023",
+      "accuracy": 75.1245849421687,
+      "error_percentage": 24.875415057831304,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:05:02.198758",
+      "accuracy": 85.41143128408812,
+      "error_percentage": 14.588568715911881,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:06:36.149074",
+      "accuracy": 51.57996787215222,
+      "error_percentage": 48.42003212784778,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:08:21.407376",
+      "accuracy": 0,
+      "error_percentage": 122.37887216303338,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T10:09:08.859619",
+      "accuracy": 90.65311851822369,
+      "error_percentage": 9.34688148177631,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:09:32.684171",
+      "accuracy": 0,
+      "error_percentage": 298.3835159496265,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T10:11:05.294380",
+      "accuracy": 0,
+      "error_percentage": 1222.6556343811963,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T10:11:20.262200",
+      "accuracy": 26.59708479620147,
+      "error_percentage": 73.40291520379853,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T10:11:59.713212",
+      "accuracy": 38.9265459885184,
+      "error_percentage": 61.0734540114816,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T10:12:53.093703",
+      "accuracy": 73.50872012756194,
+      "error_percentage": 26.491279872438056,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T10:13:27.340122",
+      "accuracy": 61.9162334096802,
+      "error_percentage": 38.0837665903198,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T10:14:03.578848",
+      "accuracy": 63.31796755953421,
+      "error_percentage": 36.68203244046579,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T10:14:41.883200",
+      "accuracy": 79.51240325214476,
+      "error_percentage": 20.487596747855243,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:16:31.472884",
+      "accuracy": 70.8416359195933,
+      "error_percentage": 29.15836408040669,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T10:16:45.165428",
+      "accuracy": 50.841336287926545,
+      "error_percentage": 49.158663712073455,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:18:27.087688",
+      "accuracy": 47.61430085700651,
+      "error_percentage": 52.38569914299349,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T10:19:30.220680",
+      "accuracy": 0,
+      "error_percentage": 1477.846660996308,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T10:20:02.076363",
+      "accuracy": 91.4345903889741,
+      "error_percentage": 8.565409611025892,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:20:55.871385",
+      "accuracy": 0,
+      "error_percentage": 189.57745742676474,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T10:23:02.074146",
+      "accuracy": 0,
+      "error_percentage": 179.7083803807245,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T10:23:28.242519",
+      "accuracy": 97.47506791559842,
+      "error_percentage": 2.5249320844015806,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T10:24:28.118110",
+      "accuracy": 90.90158558693443,
+      "error_percentage": 9.098414413065568,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:24:55.904971",
+      "accuracy": 71.82859911780844,
+      "error_percentage": 28.171400882191566,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:25:59.375421",
+      "accuracy": 66.86334608969207,
+      "error_percentage": 33.136653910307935,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T10:27:15.566303",
+      "accuracy": 52.933958731327536,
+      "error_percentage": 47.066041268672464,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T10:28:58.097866",
+      "accuracy": 0,
+      "error_percentage": 337.91240715262717,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.75
+    },
+    {
+      "timestamp": "2025-08-26T10:30:03.440757",
+      "accuracy": 57.84257902420155,
+      "error_percentage": 42.15742097579845,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T10:30:48.829739",
+      "accuracy": 85.44780221436278,
+      "error_percentage": 14.552197785637224,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T10:31:26.877914",
+      "accuracy": 0,
+      "error_percentage": 139.21977612791392,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:31:39.928835",
+      "accuracy": 91.53478900245905,
+      "error_percentage": 8.465210997540956,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T10:32:32.167214",
+      "accuracy": 0,
+      "error_percentage": 392.7894882376073,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:34:19.161516",
+      "accuracy": 0,
+      "error_percentage": 134.154506321363,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:35:59.355652",
+      "accuracy": 48.55165608137241,
+      "error_percentage": 51.44834391862759,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T10:38:03.420187",
+      "accuracy": 0,
+      "error_percentage": 117.08262287850847,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T10:39:06.783304",
+      "accuracy": 73.31153619139437,
+      "error_percentage": 26.68846380860563,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T10:40:18.861136",
+      "accuracy": 0,
+      "error_percentage": 4757.366384803761,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T10:40:21.692980",
+      "accuracy": 0,
+      "error_percentage": 182.56813399955888,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T10:42:16.059831",
+      "accuracy": 0,
+      "error_percentage": 974.1362079686783,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:43:41.469843",
+      "accuracy": 0,
+      "error_percentage": 252.50995465808975,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T10:44:39.603407",
+      "accuracy": 0,
+      "error_percentage": 282.2722468714253,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T10:46:43.309929",
+      "accuracy": 83.50539028845945,
+      "error_percentage": 16.49460971154055,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T10:47:55.119304",
+      "accuracy": 62.152081987291396,
+      "error_percentage": 37.847918012708604,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T10:48:22.577203",
+      "accuracy": 91.2142594203251,
+      "error_percentage": 8.785740579674886,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:50:00.719270",
+      "accuracy": 64.30420657676888,
+      "error_percentage": 35.69579342323113,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T10:50:15.193069",
+      "accuracy": 60.58409340046907,
+      "error_percentage": 39.41590659953093,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:50:40.244192",
+      "accuracy": 51.735176971897324,
+      "error_percentage": 48.264823028102676,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:52:21.426641",
+      "accuracy": 39.26791579265023,
+      "error_percentage": 60.73208420734977,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T10:53:29.516256",
+      "accuracy": 84.58761419489004,
+      "error_percentage": 15.412385805109958,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T10:54:36.523023",
+      "accuracy": 92.87661889888582,
+      "error_percentage": 7.1233811011141785,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T10:54:54.190781",
+      "accuracy": 76.8940153262623,
+      "error_percentage": 23.105984673737698,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T10:55:32.043550",
+      "accuracy": 46.799052074235824,
+      "error_percentage": 53.200947925764176,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:56:17.733416",
+      "accuracy": 0,
+      "error_percentage": 3092.1115232767897,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T10:57:51.288763",
+      "accuracy": 53.372857142814404,
+      "error_percentage": 46.627142857185596,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T10:58:37.483216",
+      "accuracy": 63.225466481775186,
+      "error_percentage": 36.774533518224814,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T10:58:54.830458",
+      "accuracy": 61.42400595217056,
+      "error_percentage": 38.57599404782944,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T11:00:00.038907",
+      "accuracy": 0,
+      "error_percentage": 170.22062655848418,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:00:24.101501",
+      "accuracy": 0,
+      "error_percentage": 123.48080605803497,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:00:33.209840",
+      "accuracy": 71.83044417730316,
+      "error_percentage": 28.169555822696836,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T11:01:46.826745",
+      "accuracy": 77.33168674907185,
+      "error_percentage": 22.668313250928144,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:01:51.102953",
+      "accuracy": 68.48295597970574,
+      "error_percentage": 31.51704402029427,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T11:02:42.084471",
+      "accuracy": 0,
+      "error_percentage": 167.77951131150107,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:03:05.282797",
+      "accuracy": 55.65677928445368,
+      "error_percentage": 44.34322071554632,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T11:03:29.865388",
+      "accuracy": 59.39223244056608,
+      "error_percentage": 40.60776755943392,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:04:23.138514",
+      "accuracy": 78.04385934485913,
+      "error_percentage": 21.956140655140878,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T11:05:47.443134",
+      "accuracy": 0,
+      "error_percentage": 257.8704749394771,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:07:01.201288",
+      "accuracy": 0,
+      "error_percentage": 167.65111863874765,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T11:07:29.568461",
+      "accuracy": 70.54684091875511,
+      "error_percentage": 29.45315908124489,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T11:07:33.859477",
+      "accuracy": 92.52540498457654,
+      "error_percentage": 7.474595015423456,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T11:08:18.741885",
+      "accuracy": 39.357350446342906,
+      "error_percentage": 60.642649553657094,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T11:08:42.172760",
+      "accuracy": 53.19401834576339,
+      "error_percentage": 46.80598165423661,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T11:10:35.811351",
+      "accuracy": 54.317765183273394,
+      "error_percentage": 45.682234816726606,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:11:45.127234",
+      "accuracy": 81.16266651320956,
+      "error_percentage": 18.837333486790435,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:13:36.383109",
+      "accuracy": 0,
+      "error_percentage": 168.40915812701138,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T11:14:18.758180",
+      "accuracy": 79.91925854598125,
+      "error_percentage": 20.080741454018757,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:16:18.665392",
+      "accuracy": 60.815018535335824,
+      "error_percentage": 39.184981464664176,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T11:16:39.907279",
+      "accuracy": 0,
+      "error_percentage": 1968.9731044584498,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T11:16:50.993414",
+      "accuracy": 25.163113606769656,
+      "error_percentage": 74.83688639323034,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T11:17:27.475577",
+      "accuracy": 15.123366371251237,
+      "error_percentage": 84.87663362874876,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:19:27.884264",
+      "accuracy": 0,
+      "error_percentage": 217.3006704802813,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T11:21:24.605613",
+      "accuracy": 46.188532219732124,
+      "error_percentage": 53.811467780267876,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T11:23:33.059265",
+      "accuracy": 66.31131817605699,
+      "error_percentage": 33.688681823943014,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T11:24:27.924805",
+      "accuracy": 80.29322133319549,
+      "error_percentage": 19.70677866680451,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T11:24:31.225856",
+      "accuracy": 9.123696512866317,
+      "error_percentage": 90.87630348713368,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T11:25:34.129500",
+      "accuracy": 63.09504609126041,
+      "error_percentage": 36.90495390873959,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:26:24.348949",
+      "accuracy": 0,
+      "error_percentage": 186.05393710741603,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:26:59.355160",
+      "accuracy": 90.11762429915488,
+      "error_percentage": 9.882375700845113,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.75
+    },
+    {
+      "timestamp": "2025-08-26T11:28:12.616897",
+      "accuracy": 76.85613441102149,
+      "error_percentage": 23.14386558897851,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T11:28:17.805024",
+      "accuracy": 96.24268753394965,
+      "error_percentage": 3.757312466050345,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T11:29:52.872181",
+      "accuracy": 0,
+      "error_percentage": 468.8859467634118,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T11:31:02.378042",
+      "accuracy": 68.51666971881461,
+      "error_percentage": 31.483330281185385,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T11:31:21.566327",
+      "accuracy": 0,
+      "error_percentage": 1254.360462896114,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:32:32.317536",
+      "accuracy": 6.242005566706496,
+      "error_percentage": 93.7579944332935,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T11:33:47.232658",
+      "accuracy": 66.70815836124461,
+      "error_percentage": 33.29184163875538,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:35:33.601431",
+      "accuracy": 65.02220302571564,
+      "error_percentage": 34.97779697428435,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T11:37:40.391361",
+      "accuracy": 0,
+      "error_percentage": 213.7810214284575,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T11:37:51.280071",
+      "accuracy": 35.55276266764835,
+      "error_percentage": 64.44723733235165,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T11:38:05.468800",
+      "accuracy": 56.563434224563004,
+      "error_percentage": 43.436565775436996,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T11:40:23.018887",
+      "accuracy": 0,
+      "error_percentage": 1982.5293732009616,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:40:28.784827",
+      "accuracy": 75.97537310651741,
+      "error_percentage": 24.02462689348259,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:40:39.812428",
+      "accuracy": 22.002735434821872,
+      "error_percentage": 77.99726456517813,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T11:41:20.159256",
+      "accuracy": 34.08494521629645,
+      "error_percentage": 65.91505478370355,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:44:29.829771",
+      "accuracy": 0,
+      "error_percentage": 168.40915812701144,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T11:45:48.827720",
+      "accuracy": 56.76229337146452,
+      "error_percentage": 43.23770662853548,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:52:50.837015",
+      "accuracy": 36.311816959909116,
+      "error_percentage": 63.688183040090884,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:53:22.187395",
+      "accuracy": 69.38865884559854,
+      "error_percentage": 30.611341154401455,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:58:32.677020",
+      "accuracy": 80.23492489467688,
+      "error_percentage": 19.765075105323117,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:58:43.697264",
+      "accuracy": 0,
+      "error_percentage": 335.88060662551595,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T11:59:10.039460",
+      "accuracy": 37.21236845230918,
+      "error_percentage": 62.78763154769082,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T11:59:15.235645",
+      "accuracy": 95.63498176694056,
+      "error_percentage": 4.365018233059445,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T11:59:26.404751",
+      "accuracy": 0,
+      "error_percentage": 2113.8833910419326,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.75
+    },
+    {
+      "timestamp": "2025-08-26T12:01:16.211208",
+      "accuracy": 59.756979094614444,
+      "error_percentage": 40.243020905385556,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T12:02:08.252728",
+      "accuracy": 0,
+      "error_percentage": 118.7728516609946,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:04:14.143534",
+      "accuracy": 60.81758185388668,
+      "error_percentage": 39.18241814611332,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:06:13.995302",
+      "accuracy": 43.55895376678497,
+      "error_percentage": 56.44104623321503,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T12:07:14.392438",
+      "accuracy": 0,
+      "error_percentage": 1269.333305947791,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T12:07:18.663256",
+      "accuracy": 96.51632551863271,
+      "error_percentage": 3.4836744813672826,
+      "market_regime": "high_volatility",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T12:08:54.394129",
+      "accuracy": 68.77020390437295,
+      "error_percentage": 31.229796095627055,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T12:10:44.632612",
+      "accuracy": 97.80900774026273,
+      "error_percentage": 2.1909922597372677,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T12:11:11.776236",
+      "accuracy": 69.85023830543044,
+      "error_percentage": 30.149761694569566,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T12:13:06.373506",
+      "accuracy": 63.59762396191916,
+      "error_percentage": 36.40237603808084,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:14:57.828908",
+      "accuracy": 57.39786162688155,
+      "error_percentage": 42.60213837311845,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T12:15:48.725787",
+      "accuracy": 0,
+      "error_percentage": 168.6491071792546,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T12:17:50.154498",
+      "accuracy": 75.22937775341676,
+      "error_percentage": 24.77062224658324,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:18:06.881993",
+      "accuracy": 95.5522629752554,
+      "error_percentage": 4.4477370247446,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T12:18:10.543579",
+      "accuracy": 41.02884550677103,
+      "error_percentage": 58.97115449322897,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:19:25.304629",
+      "accuracy": 74.86613355069602,
+      "error_percentage": 25.133866449303984,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T12:19:56.829161",
+      "accuracy": 0,
+      "error_percentage": 594.5163989653723,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T12:20:25.194518",
+      "accuracy": 0,
+      "error_percentage": 1119.2461047789814,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T12:22:22.507197",
+      "accuracy": 0,
+      "error_percentage": 116.28268592749123,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:24:23.024706",
+      "accuracy": 61.4471363066775,
+      "error_percentage": 38.5528636933225,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T12:25:15.621457",
+      "accuracy": 93.58634426827963,
+      "error_percentage": 6.413655731720367,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:26:44.556952",
+      "accuracy": 85.57411457820537,
+      "error_percentage": 14.425885421794627,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T12:28:43.449156",
+      "accuracy": 0,
+      "error_percentage": 11996.859394491583,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:28:58.029227",
+      "accuracy": 22.371631047399617,
+      "error_percentage": 77.62836895260038,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:30:36.466214",
+      "accuracy": 45.363382238042234,
+      "error_percentage": 54.636617761957766,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T12:31:22.417294",
+      "accuracy": 0,
+      "error_percentage": 190.23160366449912,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T12:31:30.411491",
+      "accuracy": 99.7883545144845,
+      "error_percentage": 0.2116454855155077,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:32:11.960730",
+      "accuracy": 33.90093831254585,
+      "error_percentage": 66.09906168745415,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T12:32:41.024356",
+      "accuracy": 68.35374342823229,
+      "error_percentage": 31.64625657176771,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:34:22.864071",
+      "accuracy": 96.83483706241756,
+      "error_percentage": 3.1651629375824353,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T12:34:52.188229",
+      "accuracy": 91.32182848545403,
+      "error_percentage": 8.678171514545962,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T12:35:40.762675",
+      "accuracy": 61.0341879600112,
+      "error_percentage": 38.9658120399888,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T12:36:10.631991",
+      "accuracy": 0,
+      "error_percentage": 264.93684196721404,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T12:38:12.689203",
+      "accuracy": 57.63271293441277,
+      "error_percentage": 42.36728706558723,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:39:44.624225",
+      "accuracy": 0,
+      "error_percentage": 1184.0026608961239,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T12:40:25.536321",
+      "accuracy": 0,
+      "error_percentage": 307.6648111063471,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T12:41:13.494994",
+      "accuracy": 0,
+      "error_percentage": 3594.9782127470494,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:41:18.193539",
+      "accuracy": 87.87260794642168,
+      "error_percentage": 12.127392053578324,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T12:42:36.178360",
+      "accuracy": 71.79185138463363,
+      "error_percentage": 28.208148615366373,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T12:43:47.517138",
+      "accuracy": 0,
+      "error_percentage": 736.8371668788615,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:45:06.165439",
+      "accuracy": 98.72781592016302,
+      "error_percentage": 1.2721840798369755,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:46:41.151705",
+      "accuracy": 57.49964936293567,
+      "error_percentage": 42.50035063706433,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T12:47:59.211357",
+      "accuracy": 58.45366968086772,
+      "error_percentage": 41.54633031913228,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T12:50:07.633743",
+      "accuracy": 86.0767096622667,
+      "error_percentage": 13.92329033773331,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T12:51:10.606930",
+      "accuracy": 74.45214276990527,
+      "error_percentage": 25.54785723009474,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:53:15.338165",
+      "accuracy": 82.71399111089566,
+      "error_percentage": 17.286008889104338,
+      "market_regime": "high_volatility",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T12:54:23.040949",
+      "accuracy": 0,
+      "error_percentage": 208.17476032230812,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T12:55:50.622949",
+      "accuracy": 0,
+      "error_percentage": 157.627002389461,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T12:56:38.161498",
+      "accuracy": 42.01395789877269,
+      "error_percentage": 57.98604210122731,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T12:57:26.943204",
+      "accuracy": 79.67312519859635,
+      "error_percentage": 20.326874801403644,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T12:57:56.907439",
+      "accuracy": 58.75265538059562,
+      "error_percentage": 41.24734461940438,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T12:58:14.358538",
+      "accuracy": 42.114237403548024,
+      "error_percentage": 57.885762596451976,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T12:59:25.981443",
+      "accuracy": 71.27141522620408,
+      "error_percentage": 28.728584773795923,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T13:00:14.916728",
+      "accuracy": 0,
+      "error_percentage": 1702.6979734223694,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:02:08.386920",
+      "accuracy": 41.760421157125705,
+      "error_percentage": 58.239578842874295,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T13:02:29.413334",
+      "accuracy": 61.57030043945152,
+      "error_percentage": 38.42969956054848,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:03:55.151048",
+      "accuracy": 98.61486707866625,
+      "error_percentage": 1.3851329213337424,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T13:04:00.092163",
+      "accuracy": 42.28796976789047,
+      "error_percentage": 57.71203023210953,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:04:31.396152",
+      "accuracy": 89.69877646100397,
+      "error_percentage": 10.301223538996032,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:06:28.675547",
+      "accuracy": 47.63652280330676,
+      "error_percentage": 52.36347719669324,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:08:11.879797",
+      "accuracy": 39.26791579265023,
+      "error_percentage": 60.73208420734977,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:08:44.642045",
+      "accuracy": 37.21236845230918,
+      "error_percentage": 62.78763154769082,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:08:47.034711",
+      "accuracy": 65.62202465977614,
+      "error_percentage": 34.37797534022385,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:09:10.545291",
+      "accuracy": 59.72260997311569,
+      "error_percentage": 40.27739002688431,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:10:33.508881",
+      "accuracy": 50.54693512045561,
+      "error_percentage": 49.45306487954439,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:11:55.777738",
+      "accuracy": 84.89114795969815,
+      "error_percentage": 15.108852040301851,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:12:20.303531",
+      "accuracy": 77.23375542022197,
+      "error_percentage": 22.766244579778032,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:12:39.238486",
+      "accuracy": 0,
+      "error_percentage": 1169.5646946659258,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:13:05.669272",
+      "accuracy": 93.80786370486045,
+      "error_percentage": 6.1921362951395436,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:14:18.064025",
+      "accuracy": 0,
+      "error_percentage": 2089.1717020540063,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:15:48.740617",
+      "accuracy": 97.60767458633438,
+      "error_percentage": 2.39232541366562,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:16:53.136665",
+      "accuracy": 88.29062991072674,
+      "error_percentage": 11.709370089273264,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:17:00.807411",
+      "accuracy": 25.163113606769684,
+      "error_percentage": 74.83688639323032,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:17:24.658610",
+      "accuracy": 80.94737292429521,
+      "error_percentage": 19.052627075704795,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T13:18:14.261980",
+      "accuracy": 0,
+      "error_percentage": 3915.156006766064,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T13:19:42.867175",
+      "accuracy": 51.15061355127584,
+      "error_percentage": 48.84938644872416,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T13:21:31.413831",
+      "accuracy": 23.45678036921474,
+      "error_percentage": 76.54321963078526,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:21:46.210958",
+      "accuracy": 84.50194311819416,
+      "error_percentage": 15.49805688180583,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:22:00.567125",
+      "accuracy": 17.966347063252357,
+      "error_percentage": 82.03365293674764,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T13:22:21.053762",
+      "accuracy": 0,
+      "error_percentage": 124.93591038181397,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T13:22:28.514162",
+      "accuracy": 57.16146948099225,
+      "error_percentage": 42.83853051900775,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:22:33.721767",
+      "accuracy": 0,
+      "error_percentage": 228.57339465456604,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T13:22:56.128509",
+      "accuracy": 81.101596768011,
+      "error_percentage": 18.89840323198899,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:23:27.968456",
+      "accuracy": 74.75157644989352,
+      "error_percentage": 25.24842355010648,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:24:20.546213",
+      "accuracy": 0,
+      "error_percentage": 160.00944012116588,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T13:25:19.448327",
+      "accuracy": 29.853379836846145,
+      "error_percentage": 70.14662016315386,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:25:40.253695",
+      "accuracy": 98.23611301746658,
+      "error_percentage": 1.7638869825334156,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T13:26:24.865152",
+      "accuracy": 0,
+      "error_percentage": 135.4925497389539,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:26:28.489792",
+      "accuracy": 75.97537310651741,
+      "error_percentage": 24.02462689348259,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:27:21.077198",
+      "accuracy": 0,
+      "error_percentage": 587.7860582576734,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:28:34.786533",
+      "accuracy": 4.291572135686508,
+      "error_percentage": 95.70842786431349,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:29:06.295779",
+      "accuracy": 48.94710901414599,
+      "error_percentage": 51.05289098585401,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T13:30:14.816485",
+      "accuracy": 75.53985685691129,
+      "error_percentage": 24.460143143088718,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:30:47.459289",
+      "accuracy": 0,
+      "error_percentage": 243.67526351968132,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T13:30:59.169339",
+      "accuracy": 69.27640320620489,
+      "error_percentage": 30.72359679379511,
+      "market_regime": "high_volatility",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T13:32:38.714163",
+      "accuracy": 92.85464400279477,
+      "error_percentage": 7.145355997205229,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:33:15.733437",
+      "accuracy": 79.58912992504325,
+      "error_percentage": 20.410870074956744,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:34:26.401320",
+      "accuracy": 40.80779055780375,
+      "error_percentage": 59.19220944219625,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:36:09.355489",
+      "accuracy": 78.08539308919639,
+      "error_percentage": 21.914606910803613,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:36:45.163186",
+      "accuracy": 70.62620254234852,
+      "error_percentage": 29.373797457651474,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:38:16.712437",
+      "accuracy": 53.242441321833795,
+      "error_percentage": 46.757558678166205,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T13:38:23.394353",
+      "accuracy": 0,
+      "error_percentage": 392.76914360461114,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T13:38:26.659622",
+      "accuracy": 57.358948550149336,
+      "error_percentage": 42.641051449850664,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:39:47.065322",
+      "accuracy": 0,
+      "error_percentage": 192.4473669696463,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:41:40.236207",
+      "accuracy": 23.421511067203554,
+      "error_percentage": 76.57848893279645,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:42:00.967967",
+      "accuracy": 66.33203111838455,
+      "error_percentage": 33.66796888161546,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:43:43.296559",
+      "accuracy": 0,
+      "error_percentage": 141.50910524602529,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:44:44.252668",
+      "accuracy": 87.07840826707064,
+      "error_percentage": 12.921591732929356,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:44:57.260833",
+      "accuracy": 0,
+      "error_percentage": 559.9359527914701,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:45:01.457054",
+      "accuracy": 39.573948747567314,
+      "error_percentage": 60.426051252432686,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:45:12.433087",
+      "accuracy": 17.230901519892925,
+      "error_percentage": 82.76909848010708,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:47:14.513265",
+      "accuracy": 0,
+      "error_percentage": 368.3718695494875,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T13:48:21.347708",
+      "accuracy": 88.00439261993311,
+      "error_percentage": 11.995607380066888,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:48:54.925483",
+      "accuracy": 97.85979271115248,
+      "error_percentage": 2.1402072888475243,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T13:50:23.465788",
+      "accuracy": 0,
+      "error_percentage": 1126.1293752827767,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:52:13.004016",
+      "accuracy": 53.180000211474315,
+      "error_percentage": 46.819999788525685,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T13:52:47.045945",
+      "accuracy": 80.25190500653578,
+      "error_percentage": 19.748094993464218,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:54:30.370225",
+      "accuracy": 53.78890318289935,
+      "error_percentage": 46.21109681710065,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T13:55:33.318579",
+      "accuracy": 30.32510716683406,
+      "error_percentage": 69.67489283316594,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:56:09.208284",
+      "accuracy": 70.89608762978902,
+      "error_percentage": 29.10391237021098,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:57:25.878706",
+      "accuracy": 0,
+      "error_percentage": 17452.44434001194,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:57:41.749798",
+      "accuracy": 0,
+      "error_percentage": 680.707173036769,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T13:57:45.120892",
+      "accuracy": 61.27481348587547,
+      "error_percentage": 38.72518651412453,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T13:59:43.928346",
+      "accuracy": 49.941002573786605,
+      "error_percentage": 50.058997426213395,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T14:01:27.462268",
+      "accuracy": 42.75555868793936,
+      "error_percentage": 57.24444131206064,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T14:02:16.510324",
+      "accuracy": 0,
+      "error_percentage": 118.3481380915503,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T14:04:22.333380",
+      "accuracy": 0,
+      "error_percentage": 1007.6097605204425,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T14:05:58.116845",
+      "accuracy": 0,
+      "error_percentage": 158.0457555845167,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:06:40.496791",
+      "accuracy": 52.53997115845196,
+      "error_percentage": 47.46002884154804,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T14:07:09.503806",
+      "accuracy": 87.73001870180262,
+      "error_percentage": 12.26998129819738,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T14:07:13.871102",
+      "accuracy": 92.52540498457654,
+      "error_percentage": 7.474595015423456,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T14:08:50.793845",
+      "accuracy": 86.70129632565036,
+      "error_percentage": 13.298703674349646,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:10:42.551536",
+      "accuracy": 71.63173422217386,
+      "error_percentage": 28.368265777826146,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T14:12:25.235163",
+      "accuracy": 73.19173338462824,
+      "error_percentage": 26.80826661537176,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T14:12:32.451135",
+      "accuracy": 68.19738551861815,
+      "error_percentage": 31.80261448138186,
+      "market_regime": "high_volatility",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T14:14:21.507688",
+      "accuracy": 21.76323474168619,
+      "error_percentage": 78.23676525831381,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T14:14:28.193785",
+      "accuracy": 0,
+      "error_percentage": 392.769143604611,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T14:15:56.556382",
+      "accuracy": 64.24098178420368,
+      "error_percentage": 35.75901821579632,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:18:01.746323",
+      "accuracy": 70.08842057767232,
+      "error_percentage": 29.911579422327677,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T14:18:56.204205",
+      "accuracy": 0,
+      "error_percentage": 161.37717603527204,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T14:19:41.971828",
+      "accuracy": 0,
+      "error_percentage": 231.07686066824772,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:20:15.247084",
+      "accuracy": 89.1366838057408,
+      "error_percentage": 10.863316194259193,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T14:21:59.370941",
+      "accuracy": 18.75699545596092,
+      "error_percentage": 81.24300454403908,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T14:22:25.655338",
+      "accuracy": 60.21667635499385,
+      "error_percentage": 39.78332364500615,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T14:24:26.560023",
+      "accuracy": 97.99175608524867,
+      "error_percentage": 2.008243914751335,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:25:19.894797",
+      "accuracy": 82.6629839227848,
+      "error_percentage": 17.33701607721519,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:25:32.617772",
+      "accuracy": 78.75920998815081,
+      "error_percentage": 21.240790011849178,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T14:26:29.654444",
+      "accuracy": 55.658110764885,
+      "error_percentage": 44.341889235115,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T14:26:59.136262",
+      "accuracy": 54.47144755483684,
+      "error_percentage": 45.52855244516316,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:27:20.721211",
+      "accuracy": 0,
+      "error_percentage": 101.7977761356346,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T14:28:24.544533",
+      "accuracy": 40.17498353327677,
+      "error_percentage": 59.82501646672323,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T14:29:16.135073",
+      "accuracy": 98.47987710246923,
+      "error_percentage": 1.5201228975307737,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T14:29:42.150695",
+      "accuracy": 54.32900489100212,
+      "error_percentage": 45.67099510899788,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T14:30:36.257163",
+      "accuracy": 71.52097557445143,
+      "error_percentage": 28.479024425548573,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T14:31:18.476306",
+      "accuracy": 48.545594765629794,
+      "error_percentage": 51.454405234370206,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:33:23.149858",
+      "accuracy": 57.819747253428375,
+      "error_percentage": 42.180252746571625,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T14:35:13.292781",
+      "accuracy": 46.62952325442829,
+      "error_percentage": 53.37047674557171,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T14:36:39.580665",
+      "accuracy": 79.56904204442347,
+      "error_percentage": 20.430957955576524,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:37:51.728852",
+      "accuracy": 57.84257902420155,
+      "error_percentage": 42.15742097579845,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T14:39:27.982883",
+      "accuracy": 47.235435770700974,
+      "error_percentage": 52.764564229299026,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T14:40:12.240328",
+      "accuracy": 81.13883192462733,
+      "error_percentage": 18.86116807537267,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:40:27.075531",
+      "accuracy": 81.88547566733762,
+      "error_percentage": 18.114524332662388,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:41:59.938804",
+      "accuracy": 87.31107893299435,
+      "error_percentage": 12.688921067005651,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T14:42:25.425422",
+      "accuracy": 65.84688995767007,
+      "error_percentage": 34.153110042329935,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T14:43:13.544521",
+      "accuracy": 0,
+      "error_percentage": 196.18392277672476,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T14:44:39.211384",
+      "accuracy": 66.21113966692063,
+      "error_percentage": 33.78886033307937,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T14:45:16.363514",
+      "accuracy": 52.58055903198012,
+      "error_percentage": 47.41944096801988,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:47:11.704615",
+      "accuracy": 89.98561312071779,
+      "error_percentage": 10.014386879282211,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T14:48:35.098320",
+      "accuracy": 70.00321568047235,
+      "error_percentage": 29.99678431952765,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T14:49:44.248150",
+      "accuracy": 0,
+      "error_percentage": 209.13226966451313,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T14:51:06.583865",
+      "accuracy": 0,
+      "error_percentage": 621.0970270828608,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T14:53:03.677116",
+      "accuracy": 41.637300264607745,
+      "error_percentage": 58.362699735392255,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:54:34.492207",
+      "accuracy": 63.57560984219003,
+      "error_percentage": 36.42439015780997,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T14:55:51.068716",
+      "accuracy": 0,
+      "error_percentage": 222.0147305425578,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T14:56:41.399053",
+      "accuracy": 0,
+      "error_percentage": 198.7679906998128,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T14:58:10.822561",
+      "accuracy": 53.24731517133285,
+      "error_percentage": 46.75268482866715,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:00:25.974293",
+      "accuracy": 53.136805148833425,
+      "error_percentage": 46.863194851166575,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T15:02:27.490945",
+      "accuracy": 0,
+      "error_percentage": 1397.4989942303857,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T15:03:56.425043",
+      "accuracy": 69.0288259344358,
+      "error_percentage": 30.9711740655642,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T15:05:52.250597",
+      "accuracy": 0,
+      "error_percentage": 1220.2883936925211,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T15:06:31.718859",
+      "accuracy": 73.43656550008615,
+      "error_percentage": 26.563434499913857,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T15:07:33.023437",
+      "accuracy": 45.00972511472683,
+      "error_percentage": 54.99027488527317,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:09:23.665048",
+      "accuracy": 0,
+      "error_percentage": 220.93894079784934,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:10:28.592796",
+      "accuracy": 0,
+      "error_percentage": 1071.0107232344353,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:11:34.790147",
+      "accuracy": 0,
+      "error_percentage": 183.29631139855485,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T15:12:53.645284",
+      "accuracy": 48.043147152822726,
+      "error_percentage": 51.956852847177274,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:13:37.040391",
+      "accuracy": 68.21770008943683,
+      "error_percentage": 31.782299910563168,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T15:15:06.748815",
+      "accuracy": 77.08530350781633,
+      "error_percentage": 22.914696492183662,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T15:15:26.058899",
+      "accuracy": 0,
+      "error_percentage": 1225.3105901822873,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T15:17:10.846410",
+      "accuracy": 49.836692391577245,
+      "error_percentage": 50.163307608422755,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:17:34.077502",
+      "accuracy": 14.050232587690289,
+      "error_percentage": 85.94976741230971,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.6666666666666666
+    },
+    {
+      "timestamp": "2025-08-26T15:18:18.748455",
+      "accuracy": 0,
+      "error_percentage": 1764.3419847849902,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:18:47.166227",
+      "accuracy": 0,
+      "error_percentage": 399.42374347688207,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:20:32.834228",
+      "accuracy": 56.76762268245366,
+      "error_percentage": 43.23237731754634,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:21:10.422803",
+      "accuracy": 70.20200620883628,
+      "error_percentage": 29.79799379116372,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T15:23:07.188378",
+      "accuracy": 84.27286195392313,
+      "error_percentage": 15.72713804607688,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T15:24:26.733663",
+      "accuracy": 70.23132256598272,
+      "error_percentage": 29.768677434017278,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T15:25:48.404576",
+      "accuracy": 0,
+      "error_percentage": 222.56414918261012,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T15:26:42.579404",
+      "accuracy": 55.658110764885,
+      "error_percentage": 44.341889235115,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T15:27:54.437353",
+      "accuracy": 72.31654421912916,
+      "error_percentage": 27.68345578087085,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:29:07.974035",
+      "accuracy": 0,
+      "error_percentage": 175.8500209715301,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T15:29:23.392603",
+      "accuracy": 60.95675757098565,
+      "error_percentage": 39.04324242901435,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T15:30:42.911922",
+      "accuracy": 88.30362378847995,
+      "error_percentage": 11.696376211520043,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T15:31:21.678982",
+      "accuracy": 63.225466481775214,
+      "error_percentage": 36.774533518224786,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T15:31:46.646846",
+      "accuracy": 19.633715006136015,
+      "error_percentage": 80.36628499386399,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T15:32:10.829200",
+      "accuracy": 55.92094630022466,
+      "error_percentage": 44.07905369977534,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T15:33:01.961179",
+      "accuracy": 62.490612148781935,
+      "error_percentage": 37.509387851218065,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T15:34:32.883248",
+      "accuracy": 84.28354522565772,
+      "error_percentage": 15.716454774342287,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T15:34:48.503444",
+      "accuracy": 80.43149039054985,
+      "error_percentage": 19.568509609450146,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T15:36:54.774986",
+      "accuracy": 18.1713603473667,
+      "error_percentage": 81.8286396526333,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:38:03.175300",
+      "accuracy": 83.86408123004831,
+      "error_percentage": 16.135918769951683,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:38:06.785704",
+      "accuracy": 30.99604291273505,
+      "error_percentage": 69.00395708726495,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T15:38:46.558532",
+      "accuracy": 77.96209060003878,
+      "error_percentage": 22.037909399961215,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.25
+    },
+    {
+      "timestamp": "2025-08-26T15:40:17.817899",
+      "accuracy": 76.64144367326888,
+      "error_percentage": 23.35855632673112,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:41:45.021003",
+      "accuracy": 27.512252378267732,
+      "error_percentage": 72.48774762173227,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.3333333333333333
+    },
+    {
+      "timestamp": "2025-08-26T15:43:56.554855",
+      "accuracy": 69.16880087509819,
+      "error_percentage": 30.831199124901808,
+      "market_regime": "high_volatility",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T15:44:32.197236",
+      "accuracy": 66.68196699466606,
+      "error_percentage": 33.318033005333945,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T15:44:43.317966",
+      "accuracy": 46.94315354430343,
+      "error_percentage": 53.05684645569657,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    },
+    {
+      "timestamp": "2025-08-26T15:45:20.949351",
+      "accuracy": 0,
+      "error_percentage": 284.97609117378136,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:46:58.291454",
+      "accuracy": 0,
+      "error_percentage": 337.9124071526272,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.75
+    },
+    {
+      "timestamp": "2025-08-26T15:48:40.119434",
+      "accuracy": 59.39358619525267,
+      "error_percentage": 40.60641380474733,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 1.0
+    },
+    {
+      "timestamp": "2025-08-26T15:49:56.771817",
+      "accuracy": 0,
+      "error_percentage": 122.17359006561325,
+      "market_regime": "bull_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.0
+    },
+    {
+      "timestamp": "2025-08-26T15:51:43.977197",
+      "accuracy": 0,
+      "error_percentage": 702.1599122339852,
+      "market_regime": "bear_market",
+      "shock_events_count": 0,
+      "trend_consistency": 0.5
+    }
+  ],
+  "failure_patterns": {
+    "bull_market_shocks_0": {
+      "count": 226,
+      "avg_error": 64.09365324347446,
+      "characteristics": []
+    },
+    "bear_market_shocks_0": {
+      "count": 203,
+      "avg_error": 811.965878321797,
+      "characteristics": []
+    },
+    "high_volatility_shocks_0": {
+      "count": 5,
+      "avg_error": 28.489206754112995,
+      "characteristics": []
+    }
+  },
+  "completion_time": "2025-08-26T15:51:43.978980"
+}

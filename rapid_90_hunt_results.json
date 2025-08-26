@@ -1,0 +1,73 @@
+{
+  "hunt_completed": "2025-08-25T11:52:12.530321",
+  "current_btc_price": 113457.86,
+  "best_accuracy": 0.6,
+  "best_pattern": {
+    "pattern_name": "momentum_reversal",
+    "accuracy": 0.6,
+    "avg_price_error": 14.14968875433733,
+    "total_tests": 5,
+    "strategy": "contrarian",
+    "is_promising": true
+  },
+  "target_90_achieved": false,
+  "all_results": [
+    {
+      "pattern_name": "price_trend_focus",
+      "accuracy": 0.5454545454545454,
+      "avg_price_error": 35.032535177667995,
+      "total_tests": 11,
+      "strategy": "trend_following",
+      "is_promising": false
+    },
+    {
+      "pattern_name": "momentum_reversal",
+      "accuracy": 0.6,
+      "avg_price_error": 14.14968875433733,
+      "total_tests": 5,
+      "strategy": "contrarian",
+      "is_promising": true
+    },
+    {
+      "pattern_name": "volume_confirmation",
+      "accuracy": 0.6,
+      "avg_price_error": 23.46849259205371,
+      "total_tests": 10,
+      "strategy": "volume_breakout",
+      "is_promising": true
+    },
+    {
+      "pattern_name": "pattern_analysis",
+      "accuracy": 0.16666666666666666,
+      "avg_price_error": 37.178281093364724,
+      "total_tests": 6,
+      "strategy": "technical_patterns",
+      "is_promising": false
+    },
+    {
+      "pattern_name": "onchain_analysis",
+      "accuracy": 0.5454545454545454,
+      "avg_price_error": 35.22369383639638,
+      "total_tests": 11,
+      "strategy": "fundamental",
+      "is_promising": false
+    },
+    {
+      "pattern_name": "optimized_mixed",
+      "accuracy": 0.4166666666666667,
+      "avg_price_error": 27.60462790040383,
+      "total_tests": 12,
+      "strategy": "ensemble",
+      "is_promising": false
+    },
+    {
+      "pattern_name": "high_confidence",
+      "accuracy": 0.42857142857142855,
+      "avg_price_error": 36.3123001387614,
+      "total_tests": 7,
+      "strategy": "high_precision",
+      "is_promising": false
+    }
+  ],
+  "promising_patterns_count": 2
+}

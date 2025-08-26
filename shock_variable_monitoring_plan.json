@@ -1,0 +1,341 @@
+{
+  "generated_at": "2025-08-25T19:16:35.001416",
+  "system_purpose": "돌발변수 영향도 분석 및 실시간 감시 대상 식별",
+  "analysis_summary": {
+    "total_shock_events_analyzed": 4,
+    "shock_categories": 6,
+    "critical_monitoring_targets": 6
+  },
+  "shock_category_impacts": {
+    "regulatory_shocks": {
+      "total_events": 0,
+      "avg_immediate_impact": 0,
+      "avg_volatility_increase": 0,
+      "impact_consistency": 0,
+      "critical_variables": [],
+      "composite_score": 0.0
+    },
+    "institutional_shocks": {
+      "total_events": 2,
+      "avg_immediate_impact": 1.9181681113011397,
+      "avg_volatility_increase": 0.0,
+      "impact_consistency": -15.966096028568451,
+      "critical_variables": [],
+      "composite_score": -4.022561564050079
+    },
+    "technical_shocks": {
+      "total_events": 1,
+      "avg_immediate_impact": 1.9009118761371622,
+      "avg_volatility_increase": 0.0,
+      "impact_consistency": -13.840932301143019,
+      "critical_variables": [],
+      "composite_score": -3.3919149398880406
+    },
+    "macro_shocks": {
+      "total_events": 1,
+      "avg_immediate_impact": 2.297320815701293,
+      "avg_volatility_increase": 0.0,
+      "impact_consistency": -43.94641631402587,
+      "critical_variables": [],
+      "composite_score": -12.264996567927243
+    },
+    "market_shocks": {
+      "total_events": 0,
+      "avg_immediate_impact": 0,
+      "avg_volatility_increase": 0,
+      "impact_consistency": 0,
+      "critical_variables": [],
+      "composite_score": 0.0
+    },
+    "geopolitical_shocks": {
+      "total_events": 0,
+      "avg_immediate_impact": 0,
+      "avg_volatility_increase": 0,
+      "impact_consistency": 0,
+      "critical_variables": [],
+      "composite_score": 0.0
+    }
+  },
+  "critical_monitoring_variables": {
+    "regulatory_shocks": {
+      "priority": "CRITICAL",
+      "monitoring_frequency": "실시간",
+      "key_sources": [
+        "SEC 공지사항",
+        "CFTC 발표",
+        "의회 청문회",
+        "대통령 발언",
+        "중국 인민은행",
+        "유럽 금융당국",
+        "일본 금융청",
+        "한국 금융위원회"
+      ],
+      "trigger_keywords": [
+        "bitcoin",
+        "cryptocurrency",
+        "암호화폐",
+        "가상자산",
+        "ETF",
+        "규제",
+        "regulation",
+        "금지",
+        "ban",
+        "승인",
+        "approval"
+      ]
+    },
+    "institutional_shocks": {
+      "priority": "HIGH",
+      "monitoring_frequency": "30분마다",
+      "key_sources": [
+        "BlackRock 공지",
+        "MicroStrategy SEC 파일링",
+        "Tesla 발표",
+        "Goldman Sachs",
+        "JPMorgan",
+        "Fidelity",
+        "Grayscale"
+      ],
+      "trigger_keywords": [
+        "비트코인 매수",
+        "암호화폐 투자",
+        "bitcoin purchase",
+        "crypto investment",
+        "포트폴리오 추가",
+        "treasury"
+      ]
+    },
+    "macro_shocks": {
+      "priority": "HIGH",
+      "monitoring_frequency": "1시간마다",
+      "key_sources": [
+        "연준 FOMC",
+        "CPI 발표",
+        "PCE 발표",
+        "고용지표",
+        "달러인덱스",
+        "VIX 지수",
+        "국채 수익률"
+      ],
+      "trigger_keywords": [
+        "금리",
+        "interest rate",
+        "인플레이션",
+        "inflation",
+        "QE",
+        "QT",
+        "taper",
+        "긴축",
+        "완화"
+      ]
+    },
+    "technical_shocks": {
+      "priority": "MEDIUM",
+      "monitoring_frequency": "6시간마다",
+      "key_sources": [
+        "비트코인 네트워크 상태",
+        "해시레이트",
+        "난이도",
+        "반감기 카운터",
+        "업그레이드 일정"
+      ],
+      "trigger_keywords": [
+        "halving",
+        "반감기",
+        "hash rate",
+        "해시레이트",
+        "difficulty",
+        "upgrade",
+        "fork"
+      ]
+    },
+    "market_shocks": {
+      "priority": "CRITICAL",
+      "monitoring_frequency": "실시간",
+      "key_sources": [
+        "주요 거래소 공지",
+        "대규모 지갑 움직임",
+        "청산 데이터",
+        "Whale Alert",
+        "거래소 입출금 현황"
+      ],
+      "trigger_keywords": [
+        "hack",
+        "해킹",
+        "청산",
+        "liquidation",
+        "거래 중단",
+        "maintenance",
+        "파산",
+        "bankruptcy"
+      ]
+    },
+    "geopolitical_shocks": {
+      "priority": "MEDIUM",
+      "monitoring_frequency": "2시간마다",
+      "key_sources": [
+        "국제 뉴스",
+        "지정학적 긴장",
+        "전쟁/분쟁",
+        "제재",
+        "원자재 가격",
+        "유가",
+        "금가격"
+      ],
+      "trigger_keywords": [
+        "war",
+        "전쟁",
+        "sanctions",
+        "제재",
+        "긴장",
+        "tension",
+        "유가",
+        "oil price",
+        "달러",
+        "dollar"
+      ]
+    }
+  },
+  "monitoring_execution_plan": {
+    "실시간_감시": [
+      "regulatory_shocks",
+      "market_shocks"
+    ],
+    "30분_주기": [
+      "institutional_shocks"
+    ],
+    "1시간_주기": [
+      "macro_shocks"
+    ],
+    "6시간_주기": [
+      "technical_shocks"
+    ]
+  },
+  "dashboard_specification": {
+    "dashboard_name": "BTC 돌발변수 실시간 모니터링 시스템",
+    "update_frequency": "실시간",
+    "alert_thresholds": {
+      "regulatory_shock": "즉시 알림",
+      "market_shock": "즉시 알림",
+      "institutional_shock": "5분 내 알림",
+      "macro_shock": "10분 내 알림",
+      "technical_shock": "30분 내 알림",
+      "geopolitical_shock": "1시간 내 알림"
+    },
+    "monitoring_panels": {
+      "Panel_1_규제충격": {
+        "data_sources": [
+          "SEC RSS Feed",
+          "CFTC 공지",
+          "의회 일정",
+          "중국 PBOC",
+          "ECB 발표",
+          "일본 금융청"
+        ],
+        "keywords": [
+          "bitcoin",
+          "cryptocurrency",
+          "암호화폐",
+          "가상자산",
+          "ETF",
+          "규제",
+          "regulation",
+          "금지",
+          "ban",
+          "승인",
+          "approval"
+        ],
+        "alert_level": "CRITICAL"
+      },
+      "Panel_2_기관충격": {
+        "data_sources": [
+          "BlackRock SEC Filing",
+          "MicroStrategy 보고서",
+          "Tesla Investor Relations",
+          "Goldman 공지"
+        ],
+        "keywords": [
+          "비트코인 매수",
+          "암호화폐 투자",
+          "bitcoin purchase",
+          "crypto investment",
+          "포트폴리오 추가",
+          "treasury"
+        ],
+        "alert_level": "HIGH"
+      },
+      "Panel_3_시장충격": {
+        "data_sources": [
+          "Binance API",
+          "Coinbase Status",
+          "Kraken System",
+          "Whale Alert",
+          "대규모 거래 감지"
+        ],
+        "keywords": [
+          "hack",
+          "해킹",
+          "청산",
+          "liquidation",
+          "거래 중단",
+          "maintenance",
+          "파산",
+          "bankruptcy"
+        ],
+        "alert_level": "CRITICAL"
+      },
+      "Panel_4_거시경제": {
+        "data_sources": [
+          "Fed Economic Data",
+          "Bureau of Labor Statistics",
+          "Treasury.gov",
+          "DXY Index",
+          "VIX Index"
+        ],
+        "keywords": [
+          "금리",
+          "interest rate",
+          "인플레이션",
+          "inflation",
+          "QE",
+          "QT",
+          "taper",
+          "긴축",
+          "완화"
+        ],
+        "alert_level": "HIGH"
+      }
+    },
+    "automated_actions": {
+      "CRITICAL_alert": [
+        "즉시 텔레그램 알림",
+        "이메일 발송",
+        "SMS 발송",
+        "Discord 메시지"
+      ],
+      "HIGH_alert": [
+        "텔레그램 알림",
+        "이메일 발송"
+      ],
+      "MEDIUM_alert": [
+        "대시보드 표시",
+        "로그 기록"
+      ]
+    }
+  },
+  "key_findings": {
+    "most_impactful_category": "regulatory_shocks",
+    "immediate_monitoring_required": [
+      "regulatory_shocks",
+      "market_shocks"
+    ],
+    "recommended_alert_frequency": "regulatory_shocks와 market_shocks는 실시간 감시 필수"
+  },
+  "next_steps": [
+    "1. 실시간 모니터링 시스템 구축",
+    "2. API 연동 (SEC, 거래소, 뉴스)",
+    "3. 키워드 기반 자동 감지",
+    "4. 알림 시스템 연동",
+    "5. 영향도 실시간 업데이트"
+  ]
+}

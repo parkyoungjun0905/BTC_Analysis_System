@@ -1,0 +1,267 @@
+{
+  "prediction_time": "2025-08-24T15:06:05.414803",
+  "current_price": 0,
+  "prediction_horizon": "24 hours",
+  "predictions": {
+    "full_predictions": [
+      {
+        "hour": 1,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.47800000000000004,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 2,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.4760000000000001,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 3,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.47400000000000003,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 4,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.4720000000000001,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 5,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.4699999999999999,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 6,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.46799999999999997,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 7,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.4659999999999999,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 8,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.46399999999999997,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 9,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.4619999999999999,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 10,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.45999999999999996,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 11,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.4579999999999999,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 12,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.45599999999999996,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 13,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.4539999999999999,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 14,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.45199999999999996,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 15,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.4499999999999999,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 16,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.44799999999999995,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 17,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.4459999999999999,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 18,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.44399999999999995,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 19,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.442,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 20,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.43999999999999995,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 21,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.438,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 22,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.43599999999999994,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 23,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.434,
+        "std_dev": 0.0
+      },
+      {
+        "hour": 24,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.43199999999999994,
+        "std_dev": 0.0
+      }
+    ],
+    "key_points": {
+      "1h": {
+        "hour": 1,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.47800000000000004,
+        "std_dev": 0.0
+      },
+      "4h": {
+        "hour": 4,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.4720000000000001,
+        "std_dev": 0.0
+      },
+      "12h": {
+        "hour": 12,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.45599999999999996,
+        "std_dev": 0.0
+      },
+      "24h": {
+        "hour": 24,
+        "price": 0.0,
+        "upper_bound": 0.0,
+        "lower_bound": 0.0,
+        "confidence": 0.43199999999999994,
+        "std_dev": 0.0
+      }
+    },
+    "model_agreement": 0.4,
+    "primary_direction": "횡보"
+  },
+  "confidence": 0.45499999999999996,
+  "market_state": {
+    "overall": "안정적",
+    "sentiment": "중립",
+    "momentum": "중립",
+    "risk_level": "보통",
+    "key_signals": []
+  },
+  "risk_analysis": {
+    "level": "낮음",
+    "score": 15,
+    "factors": [
+      "모델 간 불일치 (40.0%)"
+    ],
+    "warnings": []
+  },
+  "watch_factors": {
+    "critical": [],
+    "important": [],
+    "monitor": [
+      "📰 주요 경제 지표 발표 일정",
+      "🏛️ 규제 관련 뉴스",
+      "💵 달러 인덱스(DXY) 변화",
+      "📈 나스닥/S&P500 상관관계",
+      "⚡ 네트워크 해시레이트 변화"
+    ],
+    "actions": []
+  },
+  "chart_path": "/Users/parkyoungjun/Desktop/BTC_Analysis_System/prediction_chart_20250824_150605.html",
+  "disclaimer": "예측은 참고용이며 투자 조언이 아닙니다"
+}

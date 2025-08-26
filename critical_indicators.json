@@ -1,0 +1,159 @@
+{
+  "generated_at": "2025-08-25T17:02:07.569626",
+  "model_accuracy": 71.5740557706452,
+  "system_version": "궁극의 100% 백테스트 시스템 v1.0",
+  "critical_indicators": [
+    "huobi_volume_24h",
+    "macd_line",
+    "btc_layer2_activity",
+    "coinbase_price_premium",
+    "coinbase_spread",
+    "btc_wrapped_btc",
+    "legacy_market_structure_deriv_iv_surface_90d_95",
+    "network_spent_outputs_profit_ratio",
+    "legacy_market_structure_deriv_iv_surface_30d_90",
+    "hodl_1y_2y_ratio",
+    "btc_whale_ratio",
+    "volatility_autocorrelation",
+    "fear_greed_day_2_change",
+    "bybit_long_short_ratio",
+    "legacy_market_structure_cross_lead_lag_GLD_BTC",
+    "network_thermocap_ratio",
+    "exchange_netflow_acceleration",
+    "network_long_term_holder_sopr",
+    "price_momentum_24h",
+    "coinbase_open_interest",
+    "support_level_10",
+    "liquidity_systematic_risk",
+    "correlation_btc_dot_1d",
+    "onchain_blockchain_info_network_stats_total_fees_btc",
+    "fear_greed_day_4_change",
+    "pattern_flag_target_price",
+    "btc_huobi_outflow",
+    "binance_liquidations",
+    "support_level_12",
+    "legacy_market_structure_micro_order_book_imbalance"
+  ],
+  "top_15_importance": {
+    "huobi_volume_24h": {
+      "combined_importance": 0.004677754823743259,
+      "rf_importance": 0.004185263500897349,
+      "et_importance": 0.004178365380704131,
+      "gb_importance": 0.005833799363910265
+    },
+    "macd_line": {
+      "combined_importance": 0.0042360184731744105,
+      "rf_importance": 0.004070346769031132,
+      "et_importance": 0.0044845163948912135,
+      "gb_importance": 0.004208416156981977
+    },
+    "btc_layer2_activity": {
+      "combined_importance": 0.0035563960665646057,
+      "rf_importance": 0.003578605730019028,
+      "et_importance": 0.002216094725652046,
+      "gb_importance": 0.004867084522871268
+    },
+    "coinbase_price_premium": {
+      "combined_importance": 0.0027119659175605655,
+      "rf_importance": 0.0026179193328450907,
+      "et_importance": 0.003153970131826841,
+      "gb_importance": 0.0023953571495815896
+    },
+    "coinbase_spread": {
+      "combined_importance": 0.002568887791936995,
+      "rf_importance": 0.0008631864798942053,
+      "et_importance": 0.0009188501840874108,
+      "gb_importance": 0.006493193815843633
+    },
+    "btc_wrapped_btc": {
+      "combined_importance": 0.0024827018595393003,
+      "rf_importance": 0.0017057356904949749,
+      "et_importance": 0.0015445588503082094,
+      "gb_importance": 0.004456799760829491
+    },
+    "legacy_market_structure_deriv_iv_surface_90d_95": {
+      "combined_importance": 0.0023949109432527967,
+      "rf_importance": 0.0021911162346238814,
+      "et_importance": 0.001415216783466577,
+      "gb_importance": 0.0036463313812109036
+    },
+    "network_spent_outputs_profit_ratio": {
+      "combined_importance": 0.0023420333145987363,
+      "rf_importance": 0.0013188666943687113,
+      "et_importance": 0.0016705440774224991,
+      "gb_importance": 0.0043777447120816725
+    },
+    "legacy_market_structure_deriv_iv_surface_30d_90": {
+      "combined_importance": 0.002267168231522361,
+      "rf_importance": 0.002443577494057048,
+      "et_importance": 0.0023739757586235272,
+      "gb_importance": 0.0019251483543749465
+    },
+    "hodl_1y_2y_ratio": {
+      "combined_importance": 0.002193233235560957,
+      "rf_importance": 0.0013732090739404618,
+      "et_importance": 0.0009104433564449428,
+      "gb_importance": 0.004569388663504299
+    },
+    "btc_whale_ratio": {
+      "combined_importance": 0.0021897924886445223,
+      "rf_importance": 0.0019153861707594817,
+      "et_importance": 0.0009149288399507975,
+      "gb_importance": 0.003830531227851635
+    },
+    "volatility_autocorrelation": {
+      "combined_importance": 0.002186256517046192,
+      "rf_importance": 0.0016121674933311956,
+      "et_importance": 0.0010730057257711675,
+      "gb_importance": 0.004064959339941211
+    },
+    "fear_greed_day_2_change": {
+      "combined_importance": 0.0021293486467886093,
+      "rf_importance": 0.0012375310900016835,
+      "et_importance": 0.0010970869771986488,
+      "gb_importance": 0.004350700392094471
+    },
+    "bybit_long_short_ratio": {
+      "combined_importance": 0.0021232034425387736,
+      "rf_importance": 0.001037674523291998,
+      "et_importance": 0.0015634484750694747,
+      "gb_importance": 0.0041303303023371065
+    },
+    "legacy_market_structure_cross_lead_lag_GLD_BTC": {
+      "combined_importance": 0.002090409798212769,
+      "rf_importance": 0.0013920813214374872,
+      "et_importance": 0.0014225430915322953,
+      "gb_importance": 0.0036893811405936177
+    }
+  },
+  "backtest_method": "궁극의 10-fold 시계열 앙상블 백테스트",
+  "models_used": [
+    "rf_ultimate",
+    "et_ultimate",
+    "gbm_ultimate",
+    "ridge_ultimate",
+    "lasso_ultimate",
+    "elastic_ultimate",
+    "tree_ultimate"
+  ],
+  "advanced_features": [
+    "다중 시간축 이동평균",
+    "사이클 인코딩",
+    "다중 기간 볼린저 밴드",
+    "다중 기간 RSI",
+    "다중 설정 MACD",
+    "변동성 지표",
+    "레벨 지표",
+    "속도/가속도",
+    "고급 이상치 처리",
+    "다중공선성 완전 제거"
+  ],
+  "optimization_techniques": [
+    "동적 가중 앙상블",
+    "적응형 스케일링",
+    "R² 보너스 시스템",
+    "RMSE 패널티 최소화",
+    "신뢰도 기반 예측",
+    "궁극의 정확도 계산"
+  ]
+}

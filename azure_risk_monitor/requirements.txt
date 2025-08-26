@@ -1,0 +1,29 @@
+# Azure Functions 핵심
+azure-functions==1.18.0
+azure-storage-blob==12.19.0
+
+# 비동기 처리
+aiohttp==3.9.1
+
+# 데이터 처리
+pandas==2.0.3
+numpy==1.24.3
+
+# API 클라이언트
+ccxt==4.1.22
+yfinance==0.2.33
+requests==2.31.0
+
+# 기술적 분석
+ta==0.10.2
+
+# 머신러닝
+scikit-learn==1.3.0
+
+# 통신
+websockets==11.0.3
+python-telegram-bot==20.6
+
+# 유틸리티
+python-dotenv==1.0.0
+pytz==2023.3

@@ -1,0 +1,26 @@
+{
+  "analysis_time": "2025-08-24T16:54:52.916829",
+  "total_indicators": 176,
+  "feature_count": 133,
+  "data_points": 23,
+  "model_performance": [
+    {
+      "name": "ElasticNet_RobustScaler",
+      "mape": 2.0633783681552837,
+      "direction_accuracy": 0.9166666666666666,
+      "score": 0.8977523649585766
+    },
+    {
+      "name": "Ridge_RobustScaler",
+      "mape": 2.4022224262910683,
+      "direction_accuracy": 0.9166666666666666,
+      "score": 0.894646294425665
+    },
+    {
+      "name": "ElasticNet_StandardScaler",
+      "mape": 0.6407235249803486,
+      "direction_accuracy": 0.75,
+      "score": 0.7451945735626474
+    }
+  ]
+}

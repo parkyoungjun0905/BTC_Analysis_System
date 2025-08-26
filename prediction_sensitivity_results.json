@@ -1,0 +1,284 @@
+{
+  "timestamp": "2025-08-25T15:31:28.464437",
+  "base_prediction": {
+    "base_predicted_price": 112802.20499999999,
+    "base_confidence": 0.27999999999999997,
+    "base_change_percent": 0.5,
+    "momentum_component": {
+      "confidence": 0.3,
+      "prediction_change": 0.3
+    },
+    "volume_component": {
+      "confidence": 0.35,
+      "prediction_change": 0.5
+    },
+    "input_variables": {
+      "price": 112241,
+      "price_change_24h": -2.358712431553005,
+      "volume_btc": 22181.9979,
+      "reversal_strength": 0.02358712431553005,
+      "volume_ratio": 0.44363995799999995
+    }
+  },
+  "price_sensitivity": {
+    "variable_name": "24시간 가격변화율",
+    "sensitivity_type": "HIGH",
+    "learning_results": {
+      "-20.0%": {
+        "new_predicted_price": 115047.02,
+        "price_difference": 2244.82,
+        "percentage_change": 1.99,
+        "confidence_change": 0.62
+      },
+      "-15.0%": {
+        "new_predicted_price": 115047.02,
+        "price_difference": 2244.82,
+        "percentage_change": 1.99,
+        "confidence_change": 0.62
+      },
+      "-10.0%": {
+        "new_predicted_price": 115047.02,
+        "price_difference": 2244.82,
+        "percentage_change": 1.99,
+        "confidence_change": 0.62
+      },
+      "-7.0%": {
+        "new_predicted_price": 115047.02,
+        "price_difference": 2244.82,
+        "percentage_change": 1.99,
+        "confidence_change": 0.62
+      },
+      "-5.0%": {
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "confidence_change": 0.0
+      },
+      "-3.0%": {
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "confidence_change": 0.0
+      },
+      "-1.0%": {
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "confidence_change": 0.0
+      },
+      "+0.0%": {
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "confidence_change": 0.0
+      },
+      "+1.0%": {
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "confidence_change": 0.0
+      },
+      "+3.0%": {
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "confidence_change": 0.0
+      },
+      "+5.0%": {
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "confidence_change": 0.0
+      },
+      "+7.0%": {
+        "new_predicted_price": 110220.66,
+        "price_difference": -2581.54,
+        "percentage_change": -2.289,
+        "confidence_change": 0.58
+      },
+      "+10.0%": {
+        "new_predicted_price": 110220.66,
+        "price_difference": -2581.54,
+        "percentage_change": -2.289,
+        "confidence_change": 0.58
+      },
+      "+15.0%": {
+        "new_predicted_price": 110220.66,
+        "price_difference": -2581.54,
+        "percentage_change": -2.289,
+        "confidence_change": 0.58
+      },
+      "+20.0%": {
+        "new_predicted_price": 110220.66,
+        "price_difference": -2581.54,
+        "percentage_change": -2.289,
+        "confidence_change": 0.58
+      }
+    },
+    "key_findings": [
+      "가격변화율 -20% → +-2582$ 예측변화 (최대 하락 영향)",
+      "가격변화율 +20% → +2245$ 예측변화 (최대 상승 영향)",
+      "⚠️ -20.0% 변화시 예측가격 +2245$ 변동",
+      "⚠️ -15.0% 변화시 예측가격 +2245$ 변동",
+      "⚠️ -10.0% 변화시 예측가격 +2245$ 변동",
+      "⚠️ -7.0% 변화시 예측가격 +2245$ 변동",
+      "⚠️ +7.0% 변화시 예측가격 -2582$ 변동",
+      "⚠️ +10.0% 변화시 예측가격 -2582$ 변동",
+      "⚠️ +15.0% 변화시 예측가격 -2582$ 변동",
+      "⚠️ +20.0% 변화시 예측가격 -2582$ 변동"
+    ]
+  },
+  "volume_sensitivity": {
+    "variable_name": "24시간 거래량 (BTC)",
+    "sensitivity_type": "MEDIUM",
+    "learning_results": {
+      "20,000": {
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "volume_ratio": 0.4
+      },
+      "30,000": {
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "volume_ratio": 0.6
+      },
+      "40,000": {
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "volume_ratio": 0.8
+      },
+      "60,000": {
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "volume_ratio": 1.2
+      },
+      "80,000": {
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "volume_ratio": 1.6
+      },
+      "120,000": {
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "volume_ratio": 2.4
+      },
+      "200,000": {
+        "new_predicted_price": 113924.61,
+        "price_difference": 1122.41,
+        "percentage_change": 0.995,
+        "volume_ratio": 4.0
+      },
+      "300,000": {
+        "new_predicted_price": 113924.61,
+        "price_difference": 1122.41,
+        "percentage_change": 0.995,
+        "volume_ratio": 6.0
+      },
+      "500,000": {
+        "new_predicted_price": 113924.61,
+        "price_difference": 1122.41,
+        "percentage_change": 0.995,
+        "volume_ratio": 10.0
+      }
+    },
+    "key_findings": [
+      "거래량 200,000 → 예측가격 +1122$ 변동",
+      "거래량 300,000 → 예측가격 +1122$ 변동",
+      "거래량 500,000 → 예측가격 +1122$ 변동"
+    ]
+  },
+  "combined_sensitivity": {
+    "variable_name": "복합 지표 (가격변화 + 볼륨)",
+    "sensitivity_type": "VERY HIGH",
+    "learning_results": {
+      "-10.0% + 200,000": {
+        "description": "강한 하락 + 높은 볼륨",
+        "new_predicted_price": 115215.39,
+        "price_difference": 2413.18,
+        "percentage_change": 2.139,
+        "final_confidence": 93.0,
+        "signal_strength": "VERY HIGH"
+      },
+      "-5.0% + 120,000": {
+        "description": "중간 하락 + 높은 볼륨",
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "final_confidence": 28.0,
+        "signal_strength": "LOW"
+      },
+      "-3.0% + 40,000": {
+        "description": "약한 하락 + 낮은 볼륨",
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "final_confidence": 28.0,
+        "signal_strength": "LOW"
+      },
+      "+0.0% + 50,000": {
+        "description": "보합 + 보통 볼륨",
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "final_confidence": 28.0,
+        "signal_strength": "LOW"
+      },
+      "+3.0% + 40,000": {
+        "description": "약한 상승 + 낮은 볼륨",
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "final_confidence": 28.0,
+        "signal_strength": "LOW"
+      },
+      "+5.0% + 120,000": {
+        "description": "중간 상승 + 높은 볼륨",
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "final_confidence": 28.0,
+        "signal_strength": "LOW"
+      },
+      "+10.0% + 300,000": {
+        "description": "강한 상승 + 매우 높은 볼륨",
+        "new_predicted_price": 112802.2,
+        "price_difference": 0.0,
+        "percentage_change": 0.0,
+        "final_confidence": 91.0,
+        "signal_strength": "VERY HIGH"
+      },
+      "-8.0% + 60,000": {
+        "description": "중간 하락 + 보통 볼륨",
+        "new_predicted_price": 115047.02,
+        "price_difference": 2244.82,
+        "percentage_change": 1.99,
+        "final_confidence": 92.0,
+        "signal_strength": "HIGH"
+      },
+      "+8.0% + 80,000": {
+        "description": "중간 상승 + 보통 볼륨",
+        "new_predicted_price": 110220.66,
+        "price_difference": -2581.54,
+        "percentage_change": -2.289,
+        "final_confidence": 88.0,
+        "signal_strength": "HIGH"
+      }
+    },
+    "key_findings": [
+      "#1 영향: 중간 상승 + 보통 볼륨 → -2582$ (HIGH)",
+      "#2 영향: 강한 하락 + 높은 볼륨 → +2413$ (VERY HIGH)",
+      "#3 영향: 중간 하락 + 보통 볼륨 → +2245$ (HIGH)"
+    ]
+  },
+  "key_alerts": [
+    "24H 가격변화 -20.0%, -15.0% 시 예측 ±1000$ 이상 변동",
+    "거래량 200,000, 500,000 도달시 예측 ±500$ 변동",
+    "'강한 하락 + 높은 볼륨' 패턴시 최고 신뢰도 신호"
+  ]
+}

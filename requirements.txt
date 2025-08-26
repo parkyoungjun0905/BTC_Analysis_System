@@ -1,0 +1,28 @@
+# BTC 종합 분석 시스템 필수 패키지
+
+# 핵심 데이터 처리
+pandas>=2.0.0
+numpy>=1.20.0
+aiohttp>=3.8.0
+
+# 거시경제 데이터
+yfinance>=0.2.0
+
+# 뉴스 데이터
+feedparser>=6.0.0
+
+# 기술적 분석 (선택사항)
+ta>=0.10.0
+scikit-learn>=1.0.0
+scipy>=1.9.0
+
+# 기타 유틸리티
+requests>=2.28.0
+beautifulsoup4>=4.11.0
+python-dotenv>=0.19.0
+
+# 암호화폐 데이터 (기존 시스템 호환)
+ccxt>=4.0.0
+
+# 비동기 처리
+nest-asyncio>=1.5.0

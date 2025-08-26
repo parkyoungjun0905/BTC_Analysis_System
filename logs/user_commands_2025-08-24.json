@@ -1,0 +1,43 @@
+{
+  "date": "2025-08-24",
+  "commands": [
+    {
+      "timestamp": "2025-08-24T19:58:08.894401",
+      "command": "테스트 명령어",
+      "context": "시스템 테스트",
+      "files_mentioned": [
+        "test.py"
+      ],
+      "backup_id": "backup_20250824T195808894404",
+      "session_id": "session_20250824_195808"
+    },
+    {
+      "timestamp": "2025-08-24T20:01:27.417205",
+      "command": "테스트 명령어",
+      "context": "시스템 테스트",
+      "files_mentioned": [
+        "test.py"
+      ],
+      "backup_id": "backup_20250824T200127417208",
+      "session_id": "session_20250824_200127"
+    },
+    {
+      "timestamp": "2025-08-24T20:20:04.251332",
+      "command": "테스트 명령어",
+      "context": "시스템 테스트",
+      "files_mentioned": [
+        "test.py"
+      ],
+      "backup_id": "backup_20250824T202004251335",
+      "session_id": "session_20250824_202004"
+    }
+  ],
+  "summary": {
+    "total_commands": 3,
+    "unique_commands": 1,
+    "most_frequent": {
+      "command": "테스트 명령어",
+      "count": 3
+    }
+  }
+}

@@ -1,0 +1,79 @@
+{
+  "search_completed": "2025-08-25T11:41:32.639374",
+  "best_accuracy": 0,
+  "best_pattern": null,
+  "target_achieved": false,
+  "all_results": {
+    "onchain_dominant": {
+      "accuracy": 0.0,
+      "pattern": {
+        "name": "onchain_dominant",
+        "indicators": {
+          "mvrv_ratio": 0.4,
+          "sopr": 0.3,
+          "coin_days_destroyed": 0.2,
+          "whale_ratio": 0.1
+        },
+        "logic": "onchain_signals"
+      },
+      "achieved_90_percent": false
+    },
+    "derivatives_focus": {
+      "accuracy": 0.0,
+      "pattern": {
+        "name": "derivatives_focus",
+        "indicators": {
+          "funding_rate": 0.4,
+          "long_short_ratio": 0.3,
+          "open_interest": 0.2,
+          "liquidation_data": 0.1
+        },
+        "logic": "derivatives_pressure"
+      },
+      "achieved_90_percent": false
+    },
+    "sentiment_driven": {
+      "accuracy": 0.0,
+      "pattern": {
+        "name": "sentiment_driven",
+        "indicators": {
+          "fear_greed_index": 0.5,
+          "social_volume": 0.2,
+          "news_sentiment": 0.2,
+          "search_trends": 0.1
+        },
+        "logic": "sentiment_reversal"
+      },
+      "achieved_90_percent": false
+    },
+    "exchange_flows": {
+      "accuracy": 0.0,
+      "pattern": {
+        "name": "exchange_flows",
+        "indicators": {
+          "exchange_netflow": 0.4,
+          "exchange_reserve": 0.3,
+          "stablecoin_inflow": 0.2,
+          "institutional_flows": 0.1
+        },
+        "logic": "supply_demand"
+      },
+      "achieved_90_percent": false
+    },
+    "balanced_premium": {
+      "accuracy": 0.0,
+      "pattern": {
+        "name": "balanced_premium",
+        "indicators": {
+          "mvrv_ratio": 0.25,
+          "funding_rate": 0.25,
+          "fear_greed_index": 0.25,
+          "exchange_netflow": 0.25
+        },
+        "logic": "multi_factor"
+      },
+      "achieved_90_percent": false
+    }
+  },
+  "total_patterns_tested": 5
+}

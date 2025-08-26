@@ -1,0 +1,203 @@
+{
+  "generation_time": "2025-08-24T16:40:11.310222",
+  "total_simulations": 6,
+  "backtest_results": [
+    {
+      "simulation_date": "2025-05-24 00:00:00",
+      "prediction_period": "1d",
+      "current_price": 107791.15625,
+      "predicted_price": 103740.33,
+      "actual_price": 109035.390625,
+      "predicted_change": -3.75803209736884,
+      "actual_change": 1.1543009819045336,
+      "price_error": 5295.060624999998,
+      "price_mape": 4.85627702587964,
+      "direction_correct": "False",
+      "model_name": "RandomForest",
+      "train_data_size": 90
+    },
+    {
+      "simulation_date": "2025-05-24 00:00:00",
+      "prediction_period": "7d",
+      "current_price": 107791.15625,
+      "predicted_price": 103314.74597122859,
+      "actual_price": 104638.09375,
+      "predicted_change": -4.152854867229803,
+      "actual_change": -2.9251588068014622,
+      "price_error": 1323.3477787714073,
+      "price_mape": 1.2646902589157758,
+      "direction_correct": "True",
+      "model_name": "GradientBoosting",
+      "train_data_size": 90
+    },
+    {
+      "simulation_date": "2025-05-24 00:00:00",
+      "prediction_period": "14d",
+      "current_price": 107791.15625,
+      "predicted_price": 164760.49707685094,
+      "actual_price": 105615.625,
+      "predicted_change": 52.85159080650546,
+      "actual_change": -2.018283619626726,
+      "price_error": 59144.87207685094,
+      "price_mape": 56.000115585975976,
+      "direction_correct": "False",
+      "model_name": "Linear",
+      "train_data_size": 90
+    },
+    {
+      "simulation_date": "2025-06-23 00:00:00",
+      "prediction_period": "1d",
+      "current_price": 105577.7734375,
+      "predicted_price": 101514.89375,
+      "actual_price": 106045.6328125,
+      "predicted_change": -3.8482339181978893,
+      "actual_change": 0.4431419225533902,
+      "price_error": 4530.739062499997,
+      "price_mape": 4.272442855342122,
+      "direction_correct": "False",
+      "model_name": "RandomForest",
+      "train_data_size": 120
+    },
+    {
+      "simulation_date": "2025-06-23 00:00:00",
+      "prediction_period": "7d",
+      "current_price": 105577.7734375,
+      "predicted_price": 101707.733125,
+      "actual_price": 107135.3359375,
+      "predicted_change": -3.665582429422032,
+      "actual_change": 1.4752750027656596,
+      "price_error": 5427.602812500001,
+      "price_mape": 5.066118255947156,
+      "direction_correct": "False",
+      "model_name": "RandomForest",
+      "train_data_size": 120
+    },
+    {
+      "simulation_date": "2025-06-23 00:00:00",
+      "prediction_period": "14d",
+      "current_price": 105577.7734375,
+      "predicted_price": 102546.8896875,
+      "actual_price": 108299.8515625,
+      "predicted_change": -2.870759300293653,
+      "actual_change": 2.578268167978952,
+      "price_error": 5752.961874999994,
+      "price_mape": 5.312068107203223,
+      "direction_correct": "False",
+      "model_name": "RandomForest",
+      "train_data_size": 120
+    }
+  ],
+  "performance_analysis": {
+    "1d": {
+      "samples": 2,
+      "direction_accuracy": 0.0,
+      "avg_mape": 4.564359940610881,
+      "median_mape": 4.564359940610881,
+      "correlation": 0.9999999999999998,
+      "results": [
+        {
+          "simulation_date": "2025-05-24 00:00:00",
+          "prediction_period": "1d",
+          "current_price": 107791.15625,
+          "predicted_price": 103740.33,
+          "actual_price": 109035.390625,
+          "predicted_change": -3.75803209736884,
+          "actual_change": 1.1543009819045336,
+          "price_error": 5295.060624999998,
+          "price_mape": 4.85627702587964,
+          "direction_correct": "False",
+          "model_name": "RandomForest",
+          "train_data_size": 90
+        },
+        {
+          "simulation_date": "2025-06-23 00:00:00",
+          "prediction_period": "1d",
+          "current_price": 105577.7734375,
+          "predicted_price": 101514.89375,
+          "actual_price": 106045.6328125,
+          "predicted_change": -3.8482339181978893,
+          "actual_change": 0.4431419225533902,
+          "price_error": 4530.739062499997,
+          "price_mape": 4.272442855342122,
+          "direction_correct": "False",
+          "model_name": "RandomForest",
+          "train_data_size": 120
+        }
+      ]
+    },
+    "7d": {
+      "samples": 2,
+      "direction_accuracy": 0.5,
+      "avg_mape": 3.165404257431466,
+      "median_mape": 3.165404257431466,
+      "correlation": 1.0,
+      "results": [
+        {
+          "simulation_date": "2025-05-24 00:00:00",
+          "prediction_period": "7d",
+          "current_price": 107791.15625,
+          "predicted_price": 103314.74597122859,
+          "actual_price": 104638.09375,
+          "predicted_change": -4.152854867229803,
+          "actual_change": -2.9251588068014622,
+          "price_error": 1323.3477787714073,
+          "price_mape": 1.2646902589157758,
+          "direction_correct": "True",
+          "model_name": "GradientBoosting",
+          "train_data_size": 90
+        },
+        {
+          "simulation_date": "2025-06-23 00:00:00",
+          "prediction_period": "7d",
+          "current_price": 105577.7734375,
+          "predicted_price": 101707.733125,
+          "actual_price": 107135.3359375,
+          "predicted_change": -3.665582429422032,
+          "actual_change": 1.4752750027656596,
+          "price_error": 5427.602812500001,
+          "price_mape": 5.066118255947156,
+          "direction_correct": "False",
+          "model_name": "RandomForest",
+          "train_data_size": 120
+        }
+      ]
+    },
+    "14d": {
+      "samples": 2,
+      "direction_accuracy": 0.0,
+      "avg_mape": 30.6560918465896,
+      "median_mape": 30.6560918465896,
+      "correlation": -0.9999999999999999,
+      "results": [
+        {
+          "simulation_date": "2025-05-24 00:00:00",
+          "prediction_period": "14d",
+          "current_price": 107791.15625,
+          "predicted_price": 164760.49707685094,
+          "actual_price": 105615.625,
+          "predicted_change": 52.85159080650546,
+          "actual_change": -2.018283619626726,
+          "price_error": 59144.87207685094,
+          "price_mape": 56.000115585975976,
+          "direction_correct": "False",
+          "model_name": "Linear",
+          "train_data_size": 90
+        },
+        {
+          "simulation_date": "2025-06-23 00:00:00",
+          "prediction_period": "14d",
+          "current_price": 105577.7734375,
+          "predicted_price": 102546.8896875,
+          "actual_price": 108299.8515625,
+          "predicted_change": -2.870759300293653,
+          "actual_change": 2.578268167978952,
+          "price_error": 5752.961874999994,
+          "price_mape": 5.312068107203223,
+          "direction_correct": "False",
+          "model_name": "RandomForest",
+          "train_data_size": 120
+        }
+      ]
+    }
+  }
+}

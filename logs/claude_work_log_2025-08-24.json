@@ -1,0 +1,138 @@
+{
+  "date": "2025-08-24",
+  "created_at": "2025-08-24T19:48:23.690597",
+  "work_sessions": [
+    {
+      "session_id": "work_20250824T194823690790",
+      "start_time": "2025-08-24T19:48:23.690790",
+      "task": "테스트 작업",
+      "files_involved": [
+        "test.py"
+      ],
+      "status": "completed",
+      "checkpoints": [
+        {
+          "time": "2025-08-24T19:48:23.691229",
+          "description": "파일 읽기 완료",
+          "status": "success"
+        }
+      ],
+      "end_time": "2025-08-24T19:48:23.691564",
+      "result": "테스트 성공적 완료",
+      "verification_passed": true
+    }
+  ],
+  "file_modifications": [
+    {
+      "timestamp": "2025-08-24T19:48:23.691403",
+      "file_path": "test.py",
+      "operation": "modify",
+      "backup_created": true,
+      "file_size": 0
+    }
+  ],
+  "errors": [],
+  "completions": [
+    {
+      "timestamp": "2025-08-24T19:48:23.691564",
+      "session_id": "work_20250824T194823690790",
+      "result": "테스트 성공적 완료",
+      "verification_passed": true,
+      "quality": "high"
+    }
+  ],
+  "last_updated": "2025-08-24T20:20:04.257610",
+  "user_commands": [
+    {
+      "timestamp": "2025-08-24T19:58:08.894401",
+      "command": "테스트 명령어",
+      "context": "시스템 테스트",
+      "files_mentioned": [
+        "test.py"
+      ],
+      "backup_id": "backup_20250824T195808894404",
+      "session_id": "session_20250824_195808"
+    },
+    {
+      "timestamp": "2025-08-24T20:01:27.417205",
+      "command": "테스트 명령어",
+      "context": "시스템 테스트",
+      "files_mentioned": [
+        "test.py"
+      ],
+      "backup_id": "backup_20250824T200127417208",
+      "session_id": "session_20250824_200127"
+    },
+    {
+      "timestamp": "2025-08-24T20:20:04.251332",
+      "command": "테스트 명령어",
+      "context": "시스템 테스트",
+      "files_mentioned": [
+        "test.py"
+      ],
+      "backup_id": "backup_20250824T202004251335",
+      "session_id": "session_20250824_202004"
+    }
+  ],
+  "claude_responses": [
+    {
+      "timestamp": "2025-08-24T19:58:08.897527",
+      "user_command": "테스트 명령어",
+      "response_summary": "테스트 응답",
+      "actions_taken": [
+        "파일 생성"
+      ],
+      "files_modified": [
+        "test.py"
+      ],
+      "session_id": "session_20250824_195808"
+    },
+    {
+      "timestamp": "2025-08-24T20:01:27.421205",
+      "user_command": "테스트 명령어",
+      "response_summary": "테스트 응답",
+      "actions_taken": [
+        "파일 생성"
+      ],
+      "files_modified": [
+        "test.py"
+      ],
+      "session_id": "session_20250824_200127"
+    },
+    {
+      "timestamp": "2025-08-24T20:20:04.255930",
+      "user_command": "테스트 명령어",
+      "response_summary": "테스트 응답",
+      "actions_taken": [
+        "파일 생성"
+      ],
+      "files_modified": [
+        "test.py"
+      ],
+      "session_id": "session_20250824_202004"
+    }
+  ],
+  "system_snapshots": [
+    {
+      "timestamp": "2025-08-24T19:58:08.897805",
+      "snapshot_id": "snapshot_20250824T195808897805",
+      "description": "테스트 스냅샷",
+      "files_count": 4,
+      "backup_id": null
+    },
+    {
+      "timestamp": "2025-08-24T20:01:27.421426",
+      "snapshot_id": "snapshot_20250824T200127421426",
+      "description": "테스트 스냅샷",
+      "files_count": 4,
+      "backup_id": null
+    },
+    {
+      "timestamp": "2025-08-24T20:20:04.256162",
+      "snapshot_id": "snapshot_20250824T202004256162",
+      "description": "테스트 스냅샷",
+      "files_count": 4,
+      "backup_id": null
+    }
+  ]
+}

@@ -1,0 +1,12 @@
+{
+  "scriptFile": "main_monitor.py",
+  "entryPoint": "main",
+  "bindings": [
+    {
+      "name": "mytimer",
+      "type": "timerTrigger",
+      "direction": "in",
+      "schedule": "0 */1 * * * *"
+    }
+  ]
+}
