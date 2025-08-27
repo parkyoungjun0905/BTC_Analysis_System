@@ -1,0 +1,28 @@
+[
+  {
+    "timestamp": "2025-08-27T15:23:21.963360",
+    "current_price": 109742.0,
+    "predictions": {
+      "1h": {
+        "direction": "하락",
+        "raw_prediction": -1.0,
+        "confidence": 95
+      },
+      "2h": {
+        "direction": "하락",
+        "raw_prediction": -1.0,
+        "confidence": 95
+      },
+      "3h": {
+        "direction": "하락",
+        "raw_prediction": -1.0,
+        "confidence": 95
+      }
+    },
+    "validation_times": {
+      "1h": "2025-08-27T16:23:21.963360",
+      "2h": "2025-08-27T17:23:21.963360",
+      "3h": "2025-08-27T18:23:21.963360"
+    }
+  }
+]

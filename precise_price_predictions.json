@@ -1,0 +1,31 @@
+[
+  {
+    "timestamp": "2025-08-27T15:29:57.467981",
+    "current_price": 109742.0,
+    "price_predictions": {
+      "1h": {
+        "predicted_price": 66378.13,
+        "price_change": -43363.87,
+        "change_percent": -39.514,
+        "confidence": 95
+      },
+      "2h": {
+        "predicted_price": 66365.5,
+        "price_change": -43376.5,
+        "change_percent": -39.526,
+        "confidence": 95
+      },
+      "3h": {
+        "predicted_price": 66529.43,
+        "price_change": -43212.57,
+        "change_percent": -39.377,
+        "confidence": 95
+      }
+    },
+    "validation_times": {
+      "1h": "2025-08-27T16:29:57.467981",
+      "2h": "2025-08-27T17:29:57.467981",
+      "3h": "2025-08-27T18:29:57.467981"
+    }
+  }
+]
