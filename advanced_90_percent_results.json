@@ -1,0 +1,29 @@
+{
+  "models": {},
+  "scores": {
+    "rf_1h": 1.0,
+    "rf_2h": 1.0,
+    "rf_3h": 1.0,
+    "gb_1h": 1.0,
+    "gb_2h": 1.0,
+    "gb_3h": 1.0,
+    "mlp_1h": 0.9985538684020246,
+    "mlp_2h": 0.9985538684020246,
+    "mlp_3h": 0.9985538684020246
+  },
+  "best_models": {
+    "1h": "rf_1h",
+    "2h": "rf_2h",
+    "3h": "rf_3h"
+  },
+  "ensemble_accuracy": 0.9995179561340082,
+  "test_predictions": 281,
+  "direction_accuracy": 100.0,
+  "avg_confidence": 94.99736603025218,
+  "final_accuracy": 100.0,
+  "system_type": "Advanced90Percent",
+  "feature_count": 3,
+  "model_count": 9,
+  "system_version": "Advanced90Percent_v1.0",
+  "timestamp": "2025-08-27T15:13:25.879016"
+}
